@@ -4,4 +4,4 @@
 
 ### Milasha Thathsarani 
 
-![image of girl](assets/images/pngaaa.com-3712293.png)
+![image of girl](assets/images/Online%20Education%20Vector%20Illustration.jpg)
