@@ -2,4 +2,6 @@
 
 ## Institute Of Software Engineering
 
-![image of girl](assets/images/Online%20Education%20Vector%20Illustration.jpg)
+### Milasha Thathsarani 
+
+![image of girl](assets/images/IMG-20180908-WA0003%20(1).jpg)
