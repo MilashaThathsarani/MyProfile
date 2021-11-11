@@ -4,4 +4,4 @@
 
 ### Milasha Thathsarani 
 
-![image of girl](assets/images/IMG-20180908-WA0003%20(1).jpg)
+![image of girl](assets/images/pngaaa.com-3712293.png)
