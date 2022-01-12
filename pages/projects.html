@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta name="theme-color" content="red">
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link href="../assets/css/fonts/css/all.css" rel="stylesheet">
 
     <style>
         body{
@@ -114,7 +115,6 @@
             position: relative;
             display: flex;
             align-items: center;
-            border: 1px solid white;
             /*align-items: center;*/
             /*align-items: end;*/
             /*justify-content: space-around;*/
@@ -124,12 +124,47 @@
         }
 
         main>section>div{
-            border: 2px solid yellow;
             position: relative;
             height: 300px;
             width: 300px;
             border-radius: 20%;
+        }
 
+        main>section>div:nth-child(1){
+            background-color:indianred;
+            border: 5px solid gray;
+        }
+
+        main>section>div:nth-child(2){
+            background-color:#40407a;
+            border: 5px solid gray;
+        }
+
+        main>section>div:nth-child(3){
+            background-color:#cc8e35;
+            border: 5px solid gray;
+        }
+
+        main>section>div:nth-child(1)>a{
+            position: absolute;
+            margin:auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: max-content;
+            height: max-content;
+            color: white;
+            font-size: 25px;
+            font-family: Ubuntu;
+            text-decoration: none;
+        }
+
+        main>section>div:nth-child(1)>a>img{
+            position:relative;
+            height: 50px;
+            margin:auto;
+            display: inline-block;
         }
     </style>
 </head>
@@ -153,7 +188,9 @@
         <h1><b>Projects</b></h1>
 
     <section>
-        <div></div>
+        <div>
+            <a href="https://github.com/MilashaThathsarani/Salon-Management-System">Salon Management System</a>
+        </div>
         <div></div>
         <div></div>
     </section>
