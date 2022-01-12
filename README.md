@@ -8,4 +8,5 @@
 ##### 000Webhost - https://milashathathsarani.000webhostapp.com/
 ##### github - https://github.com/MilashaThathsarani/MyProfile
 
-![image of girl](assets/images/Online%20Education%20Vector%20Illustration.jpg)
+###### Screenshot...
+![image of girl](assets/images/Screenshot%20(293).png)
