@@ -14,6 +14,7 @@
 
         body{
             background-color: #615959;
+            height: 100vh;
         }
 
         header{
@@ -120,7 +121,7 @@
         #list{
             position: relative;
             left: 550px;
-            bottom: 350px;
+            bottom: 400px;
             font-size: 40px;
             color: whitesmoke;
         }
@@ -129,38 +130,50 @@
             position: relative;
             width: 50px;
             left: 75px;
-            bottom: 300px;
+            top: 90px;
         }
         #facebook{
             position: relative;
             width: 50px;
-            bottom: 300px;
+            top: 90px;
             left: 80px;
 
         }
         #linkedin{
             position: relative;
             width: 50px;
-            bottom: 300px;
+            top: 90px;
             left: 85px;
         }
         #twitter{
             position: relative;
             width: 50px;
-            bottom: 300px;
             left: 95px;
+            top: 90px;
         }
         #gmail{
             position: relative;
             width: 50px;
             left: 100px;
-            bottom: 300px;
+            top: 90px;
         }
         #github{
             position: relative;
             width: 50px;
             left: 100px;
-            bottom: 300px;
+            top: 90px;
+        }
+
+        main{
+            height: 100vh;
+        }
+       /* main>section>section:nth-child(3){
+            position: relative;
+            width: 600px;
+        }*/
+        main>section:nth-child(1){
+            position: relative;
+            height: 600px;
         }
 
 
@@ -185,15 +198,22 @@
 
 <main>
     <section>
-        <section>
+
             <h1><b>About Me</b></h1>
-        </section>
 
         <section>
             <img id="me" src="../assets/images/me.jpg" alt="" width="400">
         </section>
 
         <section>
+            <a href="https://web.whatsapp.com/"><img id="whatsapp" src="../assets/images/WhatsApp_icon.png" alt=""></a>
+            <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebook" src="../assets/images/facebook_icon.png" alt="" ></a>
+            <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedin" src="../assets/images/linkedin%20(1).png" alt=""></a>
+            <a href="https://twitter.com/milashathathsa"><img id="twitter" src="../assets/images/twitter.png" alt=""></a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmail" src="../assets/images/gmail.png" alt=""></a>
+            <a href="https://github.com/MilashaThathsarani"><img id="github" src="../assets/images/github.png" alt=""></a>
+        </section>
+
             <ul id="list">
                 <li>Milasha Thathsarani</li>
                 <br>
@@ -203,19 +223,6 @@
                 <br>
                 <li>0769050886</li>
             </ul>
-        </section>
-
-
-        <section>
-            <nav>
-                <a href="https://web.whatsapp.com/"><img id="whatsapp" src="../assets/images/WhatsApp_icon.png" alt=""></a>
-                <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebook" src="../assets/images/facebook_icon.png" alt="" ></a>
-                <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedin" src="../assets/images/linkedin%20(1).png" alt=""></a>
-                <a href="https://twitter.com/milashathathsa"><img id="twitter" src="../assets/images/twitter.png" alt=""></a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmail" src="../assets/images/gmail.png" alt=""></a>
-                <a href="https://github.com/MilashaThathsarani"><img id="github" src="../assets/images/github.png" alt=""></a>
-            </nav>
-        </section>
     </section>
 </main>
 
