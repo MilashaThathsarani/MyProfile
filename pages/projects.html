@@ -110,14 +110,13 @@
             font-family:Calibri;
         }
 
-        body>main>section{
-            height: 400px;
+        body>main>section:nth-child(2){
+            height: 330px;
             position: relative;
             display: flex;
             align-items: center;
             justify-content:space-evenly ;
-            top: 30px;
-
+            top: 40px;
         }
 
         main>section>div{
@@ -200,6 +199,19 @@
             text-decoration: none;
         }
 
+        main>section:nth-child(1){
+            height: 100px;
+        }
+        main>section:nth-child(1)>h1{
+            position: absolute;
+            color: white;
+            left: 50px;
+            bottom: 560px;
+            font-size: 30px;
+            font-family: Candara;
+            top: 75px;
+        }
+
     </style>
 </head>
 
@@ -219,7 +231,8 @@
 </header>
 
 <main>
-        <h1><b>Projects</b></h1>
+
+    <section><h1><b>Projects_</b></h1></section>
 
     <section>
         <div>
@@ -233,6 +246,7 @@
             <a href="https://github.com/MilashaThathsarani/Parking-System-"><b>Parking System</b></a>
         </div>
     </section>
+
 </main>
 </body>
 </html>
