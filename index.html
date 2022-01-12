@@ -198,17 +198,29 @@
         font-size: 70px;
         top: 30px;
         color: white;
-        animation: fadeIn 5s;
+        font-family: Calibri;
+        animation: fadeIn 4s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    section>section>h1:nth-child(2){
+        position: relative;
+        left: 150px;
+        font-size: 70px;
+        top: 30px;
+        color: burlywood;
+        font-family:Tahoma;
+        animation: fadeIn2 6s;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
     }
 
-    section>section>h1:nth-child(2){
+    section>section>h1:nth-child(3){
         position: relative;
         left: 100px;
         font-size: 40px;
-        top: 100px;
-        font-family: Alegreya SC;
+        top: 70px;
+        font-family: "Bell MT";
     }
 
     body>footer>h2:nth-child(1){
@@ -246,6 +258,14 @@
             opacity: 100%;
         }
     }
+    @keyframes fadeIn2 {
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
 
 
 
@@ -270,7 +290,8 @@
 <main>
     <section>
         <section>
-            <h1><b>Hi, <br> I'm Milasha Thathsarani</b></h1>
+            <h1><b>Hi,</b></h1>
+            <h1>I'm Milasha Thathsarani</b></h1>
 
             <h1><b>I'm Software Engineer<br> <br>
                             Web Designer</b></h1>
