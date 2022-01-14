@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/fonts/css/all.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
 <style>
@@ -202,6 +203,12 @@
         animation: fadeIn 4s;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
+        width: 0px;
+        margin-left: 0;
+        margin: inherit;
+        margin-right: 0;
+        margin-bottom: 0px;
+        height: 0;
     }
     section>section>h1:nth-child(2){
         position: relative;
@@ -213,6 +220,9 @@
         animation: fadeIn2 6s;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
+        width: 910px;
+        margin: 0;
+        height: 0;
     }
 
     section>section>h1:nth-child(3){
@@ -221,6 +231,10 @@
         font-size: 40px;
         top: 70px;
         font-family: "Bell MT";
+        margin: 0;
+        width: 400px;
+        height: 0;
+
     }
 
     body>footer>h2:nth-child(1){
@@ -228,6 +242,9 @@
         color: #928686;
         left: 730px;
         top: 10px;
+        margin: 0;
+        width: 300px;
+        height: 0;
     }
 
     body>footer>h2:nth-child(2){
@@ -235,6 +252,9 @@
         color: #928686;
         left: 1180px;
        bottom: 35px;
+        margin: 0;
+        width: 200px;
+        height: 0;
     }
 
     body>footer>h2:nth-child(3){
@@ -242,12 +262,18 @@
         color: #928686;
         left: 100px;
         bottom: 85px;
+        margin: 0;
+        width: 300px;
+        height: 0;
     }
     body>footer>h2:nth-child(4){
         position: relative;
         color: #928686;
         left: 450px;
         bottom: 133px;
+        margin: 0;
+        width: 200px;
+        height: 0;
     }
 
     @keyframes fadeIn {
@@ -267,6 +293,12 @@
         }
     }
 
+    @media all and (max-width: 320px) {
+        header{
+            height: 60px;
+        }
+
+    }
 
 
 
