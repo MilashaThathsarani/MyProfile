@@ -10,6 +10,7 @@
     <meta name="theme-color" content="red">
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link href="../assets/css/fonts/css/all.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <style>
         body{
@@ -286,6 +287,50 @@
             width: 200px;
             height: 0;
 
+        }
+
+        @media all and (max-width: 320px){
+            header{
+                width: 320px;
+                height: 60px;
+            }
+            body>main>section:nth-child(2) {
+                height: 457px;
+                top: -72px;
+                flex-direction: column;
+                width: 225px;
+                margin: 0;
+                left: 45px;
+            }
+            main>section>div {
+                position: relative;
+                height: 103px;
+                width: 151px;
+                border-radius: 10%;
+                margin: 6px;
+            }
+
+            main>section:nth-child(3)>h2 {
+                left: 103px;
+                top: -78px;
+                font-size: 21px;
+            }
+
+            main>section>div:nth-child(1)>a {
+                top: 71px;
+                left: 7px;
+                font-size: 13px;
+            }
+            main>section>div:nth-child(2)>a {
+                top: 72px;
+                left: 13px;
+                font-size: 13px;
+            }
+            main>section>div:nth-child(3)>a {
+                top: 76px;
+                font-size: 14px;
+                left: 26px;
+            }
         }
 
     </style>
