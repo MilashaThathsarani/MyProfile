@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta name="theme-color" content="red">
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <style>
         body{
@@ -258,6 +259,192 @@
             font-family: Candara;
             top: 75px;
         }
+
+        @media all and (max-width: 320px){
+            header{
+                width: 320px;
+                height: 60px;
+            }
+
+            body>main>section:nth-child(1) {
+                height: 148px;
+                top: 220px;
+                flex-direction: column;
+                left: -49px;
+            }
+
+            main>section:nth-child(1)>img {
+                position: relative;
+                height: 108px;
+                width: 186px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(1) {
+                left: 236px;
+                top: 20px;
+                font-size: 21px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(2) {
+                left: 180px;
+                top: 139px;
+                font-size: 21px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(3) {
+                left: 214px;
+                top: 256px;
+                font-size: 21px;
+            }
+
+        }
+
+        @media all and (min-width: 375px) and (max-width: 425px){
+            header{
+                width: 375px;
+                height: 54px;
+            }
+
+            body>main>section:nth-child(1) {
+                height: 148px;
+                top: 191px;
+                flex-direction: column;
+                left: -60px;
+            }
+            main>section:nth-child(1)>img {
+                position: relative;
+                height: 108px;
+                width: 186px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(1) {
+                left: 270px;
+                top: -22px;
+                font-size: 21px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(2) {
+                left: 215px;
+                top: 105px;
+                font-size: 21px;
+            }
+            main>section:nth-child(2)>h1:nth-child(3) {
+                left: 250px;
+                top: 231px;
+                font-size: 21px;
+            }
+
+        }
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            header{
+                width: 425px;
+                height: 55px;
+            }
+
+            body>main>section:nth-child(1) {
+                height: 148px;
+                top: 182px;
+                flex-direction: column;
+                left: -92px;
+            }
+            main>section:nth-child(1)>img {
+                position: relative;
+                height: 108px;
+                width: 186px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(1) {
+                left: 270px;
+                top: -11px;
+                font-size: 21px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(2) {
+                left: 213px;
+                top: 115px;
+                font-size: 21px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(3) {
+                left: 246px;
+                top: 243px;
+                font-size: 21px;
+            }
+
+        }
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            header{
+                width: 768px;
+                height: 30px;
+            }
+
+            body>main>section:nth-child(1) {
+                height: 300px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                top: -28px;
+                flex-direction: row;
+                width: 231px;
+                left: 74px;
+            }
+            main>section:nth-child(1)>img {
+                position: relative;
+                height: 119px;
+                width: 200px;
+            }
+            main>section:nth-child(2)>h1:nth-child(1) {
+                left: 40px;
+                top: -87px;
+                font-size: 14px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(2) {
+                left: 134px;
+                top: -87px;
+                font-size: 14px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(3) {
+                left: 268px;
+                top: -87px;
+                font-size: 14px;
+            }
+
+        }
+
+        @media all and (min-width: 1024px) and (max-width: 1440px){
+            body>main>section:nth-child(1) {
+                height: 300px;
+                top: -60px;
+                flex-direction: row;
+                width: 231px;
+                left: 74px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(1) {
+                left: 59px;
+                top: -137px;
+                font-size: 10px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(2) {
+                left: 146px;
+                top: -137px;
+                font-size: 10px;
+            }
+
+            main>section:nth-child(2)>h1:nth-child(3) {
+                left: 259px;
+                top: -137px;
+                font-size: 10px;
+            }
+
+        }
+
 
     </style>
 </head>
