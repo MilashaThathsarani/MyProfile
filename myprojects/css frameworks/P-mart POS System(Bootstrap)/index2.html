@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        section>section>div:nth-child(1)>form>nav{
+            background-color: #e58e26;
+
+        }
+        section>section>div:nth-child(2)>nav{
+            background-color: #e58e26;
+        }
+
+        section>div>table>thead{
+            background-color: #e58e26;
+        }
+        body{
+            background-color: linen;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img src="assets/images/supermarket.jpg" alt="" width="45" height="45" class="d-inline-block align-text-top fw-bolder">
+        P-mart POS System
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#">Items</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdown" role="button">
+                        Others
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-warning">Back</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<section class="container-fluid">
+    <section class="row mt-5">
+        <div class="col-md-4">
+            <form class="bg-white">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Search Item</a>
+                    </div>
+                </nav>
+                <div class="row">
+
+                    <div class="form-group col mt-3 m-3">
+                        <label for="exampleInputCustomerId"></label>
+                        <input type="text" class="form-control" id="exampleInputCustomerId">
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-success m-3">Success</button>
+
+            </form>
+
+            <button type="button" class="btn btn-danger mt-5">Delete</button>
+            <button type="button" class="btn btn-primary mt-5">Details</button>
+            <button type="button" class="btn btn-success mt-5">Clear</button>
+        </div>
+
+        <div class="col-md-6">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">New Item</a>
+                </div>
+
+            </nav>
+            <form class="bg-white">
+
+                    <div class="form-group ">
+                        <label for="exampleInputName">Item Code</label>
+                        <input type="text" class="form-control" id="exampleInputName">
+                        <!--                <small id="emailHelp" class="form-text text-muted"></small>-->
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="exampleInputSalary">Item Name</label>
+                        <input type="text" class="form-control" id="exampleInputSalary">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputName">Item Price</label>
+                        <input type="text" class="form-control" id="exampleInputName">
+                        <!--                <small id="emailHelp" class="form-text text-muted"></small>-->
+                    </div>
+                    <div class="form-group ">
+                        <label for="exampleInputSalary">Item Quantity</label>
+                        <input type="text" class="form-control" id="exampleInputSalary">
+                    </div>
+
+                <button type="button" class="btn btn-danger mt-4">Save</button>
+                <button type="button" class="btn btn-warning mt-4">Update</button>
+                <button type="button" class="btn btn-primary mt-4">Close</button>
+            </form>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-success mt-1 m-5">View Item Details</button>
+        </div>
+
+
+    </section>
+
+    <div class="mt-5 bg-white">
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">Item Code</th>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>I001</td>
+                <td>Samba Rice</td>
+                <td>150</td>
+                <td>Rs.175</td>
+            </tr>
+            <tr>
+                <td>I002</td>
+                <td>Fresh fish</td>
+                <td>145</td>
+                <td>Rs.500</td>
+            </tr>
+            <tr>
+                <td>I003</td>
+                <td>Soap</td>
+                <td>200</td>
+                <td>Rs.60</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</section>
+
+
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
