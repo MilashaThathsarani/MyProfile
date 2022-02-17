@@ -37,11 +37,11 @@
     }
 
     #mainImg{
-        width: 300px;
+        width: 250px;
         position: absolute;
         left: 1150px;
-        top: 110px;
-        height: 500px;
+        top: 1px;
+        height: 300px;
     }
 
     #home{
@@ -186,18 +186,18 @@
     }
 
     footer{
-        background-color:#eb3b5a;
+        background-color:darkgreen;
         position: absolute;
         width: 100vw;
-        height: 90px;
-        bottom: 0;
+        height: 70px;
+        bottom: 0px;
     }
 
     section>section>h1:nth-child(1){
         position: relative;
         left: 100px;
         font-size: 70px;
-        top: 40px;
+        top: 50px;
         color: white;
         font-family: Calibri;
         animation: fadeIn 4s;
@@ -786,6 +786,183 @@
             top: 10px;
             font-size: 7px;
         }
+    }
+
+
+
+
+    #me {
+        position: relative;
+        width: 380px;
+        border-radius: 100%;
+        left: 50px;
+        top: 100px;
+    }
+
+    #girl {
+        position: absolute;
+        width: 400px;
+        right: 70px;
+        top: 100px;
+        animation-name: girl;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    #list{
+        position: relative;
+        left: 580px;
+        bottom: 300px;
+        font-size: 35px;
+        color: whitesmoke;
+        margin: 0;
+        width: 400px;
+        height: 0;
+    }
+
+    #whatsapp{
+        position: relative;
+        width: 50px;
+        left: 75px;
+        top: 150px;
+    }
+    #facebook{
+        position: relative;
+        width: 50px;
+        top: 150px;
+        left: 80px;
+
+    }
+    #linkedin{
+        position: relative;
+        width: 50px;
+        top: 150px;
+        left: 85px;
+    }
+    #twitter{
+        position: relative;
+        width: 50px;
+        left: 95px;
+        top: 150px;
+    }
+    #gmail{
+        position: relative;
+        width: 50px;
+        left: 100px;
+        top: 150px;
+    }
+    #github{
+        position: relative;
+        width: 50px;
+        left: 100px;
+        top: 150px;
+    }
+
+    main{
+        height: 100vh;
+    }
+    /* main>section>section:nth-child(3){
+         position: relative;
+         width: 600px;
+     }*/
+    main>section:nth-child(1){
+        position: relative;
+        height: 500px;
+        top: 80px;
+    }
+
+    main>section:nth-child(2)>h1{
+        position: relative;
+        color: white;
+        left: 50px;
+        bottom: 400px;
+        font-size: 30px;
+        font-family: Candara;
+        width: 200px;
+        margin: 0;
+        height: 0;
+
+    }
+
+    @keyframes girl {
+        2% {
+            transform: rotate(0deg);
+
+
+        }
+        30% {
+            transform: rotate(5deg);
+
+        }
+        70% {
+
+            transform: rotate(-5deg);
+
+        }
+        90% {
+            transform: rotate(5deg);
+
+        }
+    }
+
+    @media all and (max-width: 320px){
+        header{
+            height: 60px;
+        }
+
+        #girl {
+            display: none;
+        }
+        #me {
+            width: 207px;
+            left: 54px;
+            top: -16px;
+        }
+        #list {
+            left: 40px;
+            bottom: 40px;
+            font-size: 18px;
+        }
+
+        main>section:nth-child(2)>h1 {
+            left: 17px;
+            bottom: 489px;
+            font-size: 25px;
+        }
+        #whatsapp {
+            width: 35px;
+            left: 23px;
+            top: 175px;
+        }
+        #facebook {
+            position: relative;
+            width: 35px;
+            top: 175px;
+            left: 29px;
+        }
+        #linkedin {
+            width: 35px;
+            top: 175px;
+            left: 38px;
+        }
+        #twitter {
+            width: 35px;
+            left: 50px;
+            top: 175px;
+        }
+        #gmail {
+            width: 35px;
+            left: 60px;
+            top: 175px;
+        }
+        #github {
+            position: relative;
+            width: 35px;
+            left: 69px;
+            top: 175px;
+        }
+
     }
 
 </style>
