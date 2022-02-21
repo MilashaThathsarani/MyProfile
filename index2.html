@@ -16,6 +16,8 @@
 </head>
 
 <style>
+
+    /*--------------------------------------------------------------------------------*/
     header{
         width: 100vw;
         top: 0;
@@ -161,15 +163,6 @@
         color: #181818;
         font-size: 27px;
     }
-
-    /*main>footer{*/
-    /*    background-color:darkgreen;*/
-    /*    position: absolute;*/
-    /*    width: 100vw;*/
-    /*    height: 70px;*/
-    /*    bottom: 0px;*/
-    /*}*/
-
     body>section>section>h1:nth-child(1){
         position: absolute;
         left: 90px;
@@ -232,88 +225,85 @@
         }
     }
 
-
-
     /*-----------------------------------------------------------------------------------------------------*/
 
 
+    body>section:nth-child(2){
+        width: 100vw;
+    }
+    #me {
+        position: relative;
+        width: 380px;
+        border-radius: 100%;
+        left: 50px;
+        top: 100px;
+    }
 
+    #girl {
+        position: absolute;
+        width: 400px;
+        right: 70px;
+        top: 800px;
+        animation-name: girl;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
 
-    /*#me {*/
-    /*    position: relative;*/
-    /*    width: 380px;*/
-    /*    border-radius: 100%;*/
-    /*    left: 50px;*/
-    /*    top: 100px;*/
-    /*}*/
+    }
 
-    /*#girl {*/
-    /*    position: absolute;*/
-    /*    width: 400px;*/
-    /*    right: 70px;*/
-    /*    top: 100px;*/
-    /*    animation-name: girl;*/
-    /*    animation-duration: 5s;*/
-    /*    animation-iteration-count: infinite;*/
+    #list{
+        position: relative;
+        left: 580px;
+        bottom: 300px;
+        font-size: 35px;
+        color: whitesmoke;
+        margin: 0;
+        width: 400px;
+        height: 0;
+    }
 
-    /*}*/
+    #whatsapp{
+        position: relative;
+        width: 50px;
+        left: 75px;
+        top: 150px;
+    }
+    #facebook{
+        position: relative;
+        width: 50px;
+        top: 150px;
+        left: 80px;
 
-    /*#list{*/
-    /*    position: relative;*/
-    /*    left: 580px;*/
-    /*    bottom: 300px;*/
-    /*    font-size: 35px;*/
-    /*    color: whitesmoke;*/
-    /*    margin: 0;*/
-    /*    width: 400px;*/
-    /*    height: 0;*/
-    /*}*/
+    }
+    #linkedin{
+        position: relative;
+        width: 50px;
+        top: 150px;
+        left: 85px;
+    }
+    #twitter{
+        position: relative;
+        width: 50px;
+        left: 95px;
+        top: 150px;
+    }
+    #gmail{
+        position: relative;
+        width: 50px;
+        left: 100px;
+        top: 150px;
+    }
+    #github{
+        position: relative;
+        width: 50px;
+        left: 100px;
+        top: 150px;
+    }
 
-    /*#whatsapp{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    left: 75px;*/
-    /*    top: 150px;*/
-    /*}*/
-    /*#facebook{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    top: 150px;*/
-    /*    left: 80px;*/
-
-    /*}*/
-    /*#linkedin{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    top: 150px;*/
-    /*    left: 85px;*/
-    /*}*/
-    /*#twitter{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    left: 95px;*/
-    /*    top: 150px;*/
-    /*}*/
-    /*#gmail{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    left: 100px;*/
-    /*    top: 150px;*/
-    /*}*/
-    /*#github{*/
-    /*    position: relative;*/
-    /*    width: 50px;*/
-    /*    left: 100px;*/
-    /*    top: 150px;*/
-    /*}*/
-
-    /*main{*/
-    /*    height: 100vh;*/
-    /*}*/
-    /*!* main>section>section:nth-child(3){*/
+    /* main>section>section:nth-child(3){*/
     /*     position: relative;*/
     /*     width: 600px;*/
-    /* }*!*/
+    /* }*/
+
     /*main>section:nth-child(1){*/
     /*    position: relative;*/
     /*    height: 500px;*/
@@ -333,155 +323,26 @@
 
     /*}*/
 
-    /*@keyframes girl {*/
-    /*    2% {*/
-    /*        transform: rotate(0deg);*/
+    @keyframes girl {
+        2% {
+            transform: rotate(0deg);
 
 
-    /*    }*/
-    /*    30% {*/
-    /*        transform: rotate(5deg);*/
+        }
+        30% {
+            transform: rotate(5deg);
 
-    /*    }*/
-    /*    70% {*/
+        }
+        70% {
 
-    /*        transform: rotate(-5deg);*/
+            transform: rotate(-5deg);
 
-    /*    }*/
-    /*    90% {*/
-    /*        transform: rotate(5deg);*/
+        }
+        90% {
+            transform: rotate(5deg);
 
-    /*    }*/
-    /*}*/
-
-    /*@media all and (max-width: 320px){*/
-    /*    header{*/
-    /*        height: 60px;*/
-    /*    }*/
-
-    /*    #girl {*/
-    /*        display: none;*/
-    /*    }*/
-    /*    #me {*/
-    /*        width: 207px;*/
-    /*        left: 54px;*/
-    /*        top: -16px;*/
-    /*    }*/
-    /*    #list {*/
-    /*        left: 40px;*/
-    /*        bottom: 40px;*/
-    /*        font-size: 18px;*/
-    /*    }*/
-
-    /*    main>section:nth-child(2)>h1 {*/
-    /*        left: 17px;*/
-    /*        bottom: 489px;*/
-    /*        font-size: 25px;*/
-    /*    }*/
-    /*    #whatsapp {*/
-    /*        width: 35px;*/
-    /*        left: 23px;*/
-    /*        top: 175px;*/
-    /*    }*/
-    /*    #facebook {*/
-    /*        position: relative;*/
-    /*        width: 35px;*/
-    /*        top: 175px;*/
-    /*        left: 29px;*/
-    /*    }*/
-    /*    #linkedin {*/
-    /*        width: 35px;*/
-    /*        top: 175px;*/
-    /*        left: 38px;*/
-    /*    }*/
-    /*    #twitter {*/
-    /*        width: 35px;*/
-    /*        left: 50px;*/
-    /*        top: 175px;*/
-    /*    }*/
-    /*    #gmail {*/
-    /*        width: 35px;*/
-    /*        left: 60px;*/
-    /*        top: 175px;*/
-    /*    }*/
-    /*    #github {*/
-    /*        position: relative;*/
-    /*        width: 35px;*/
-    /*        left: 69px;*/
-    /*        top: 175px;*/
-    /*    }*/
-
-    /*}*/
-
-
-
-    /*main>section:nth-child(5)>h1{*/
-    /*    position: absolute;*/
-    /*    color: white;*/
-    /*    left: 50px;*/
-    /*    bottom: 560px;*/
-    /*    font-size: 30px;*/
-    /*    font-family: Candara;*/
-    /*    margin: 0;*/
-    /*    width: 600px;*/
-    /*    height: 0;*/
-
-    /*}*/
-
-    /*main>section:nth-child(1)>img{*/
-    /*    width: 100px;*/
-    /*    height: 130px;*/
-    /*    position: absolute;*/
-    /*    left: 720px;*/
-    /*    z-index: 1;*/
-    /*    top: 10px;*/
-    /*}*/
-
-    /*main>section:nth-child(2)>img{*/
-    /*    width: 500px;*/
-    /*    height: 530px;*/
-    /*    position: absolute;*/
-    /*    left: 500px;*/
-    /*   top: 1600px;*/
-
-    /*}*/
-
-    /*main>section:nth-child(3)>img{*/
-    /*    width: 150px;*/
-    /*    height: 75px;*/
-    /*    border-radius: 5%;*/
-    /*    position: absolute;*/
-    /*    left: 100px;*/
-    /*    top: 240px;*/
-    /*}*/
-
-    /*main>section:nth-child(3)>h1{*/
-    /*    position:relative;*/
-    /*    left: 100px;*/
-    /*    top: 260px;*/
-    /*    margin: 0;*/
-    /*    width: 600px;*/
-    /*    height: 0;*/
-    /*}*/
-
-    /*main>section:nth-child(4)>h1{*/
-    /*    position:relative;*/
-    /*    left: 1010px;*/
-    /*    top: 480px;*/
-    /*    margin: 0;*/
-    /*    width: 600px;*/
-    /*    height: 0;*/
-    /*}*/
-
-    /*main>section:nth-child(4)>img{*/
-    /*    width: 150px;*/
-    /*    height: 150px;*/
-    /*    border-radius: 5%;*/
-    /*    position: absolute;*/
-    /*    left: 1250px;*/
-    /*    top: 380px;*/
-    /*}*/
-
+        }
+    }
     *{
         margin: 0;
         padding: 0;
@@ -504,7 +365,7 @@
 
 
 <body>
-<section>
+<section style="height: 100vw">
     <div class="container"></div>
 
     <header>
@@ -517,7 +378,6 @@
             <a href="pages/assginment.html" target="_self" id="assignment">Assignments</a>
             <a href="pages/activities.html" target="_self" id="activities">Activites</a>
             <a href="pages/contact.html" target="_self" id="contact">Contact</a>
-<!--            <img id="navimg" src="assets/images/navigationBarImg.png" alt="">-->
         </nav>
     </header>
 
@@ -532,52 +392,38 @@
 
 </section>
 
+<!--  ---------------------------------------------------------------------------->
+
+<section style="background-color: sandybrown">
+
+    <section>
+                        <img id="me" src="assets/images/me.jpg" alt="">
+                        <img id="girl" src="assets/images/2_girl.jpg" alt="">
+                    </section>
+
+                    <section>
+                        <a href="https://web.whatsapp.com/"><img id="whatsapp" src="assets/images/WhatsApp_icon.png" alt=""></a>
+                        <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebook" src="assets/images/facebook_icon.png" alt="" ></a>
+                        <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedin" src="assets/images/linkedin%20(1).png" alt=""></a>
+                        <a href="https://twitter.com/milashathathsa"><img id="twitter" src="assets/images/twitter.png" alt=""></a>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmail" src="assets/images/gmail.png" alt=""></a>
+                        <a href="https://github.com/MilashaThathsarani"><img id="github" src="assets/images/github.png" alt=""></a>
+                    </section>
+
+                    <ul id="list">
+                        <li>Milasha Thathsarani</li>
+                        <br>
+                        <li>Matara</li>
+                        <br>
+                        <li>22 years</li>
+                        <br>
+                        <li>0769050886</li>
+                    </ul>
+
+                    <h1>About me_</h1>
 
 
-<!--<footer>-->
-<!--    <h2>milashathathsarani99@gmail.com</h2>-->
-<!--    <h2>0769050886</h2>-->
-<!--    <h2>S.N.Milasha Thathsarani</h2>-->
-<!--    <h2>Software Engineer</h2>-->
-<!--</footer>-->
-
-
-
-
-
-<!--    <main style="background-color: red">-->
-<!--        <section>-->
-
-<!--            <section>-->
-<!--                <img id="me" src="assets/images/me.jpg" alt="">-->
-<!--                <img id="girl" src="assets/images/girllap.jpeg" alt="">-->
-<!--            </section>-->
-
-<!--            <section>-->
-<!--                <a href="https://web.whatsapp.com/"><img id="whatsapp" src="assets/images/WhatsApp_icon.png" alt=""></a>-->
-<!--                <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebook" src="assets/images/facebook_icon.png" alt="" ></a>-->
-<!--                <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedin" src="../assets/images/linkedin%20(1).png" alt=""></a>-->
-<!--                <a href="https://twitter.com/milashathathsa"><img id="twitter" src="assets/images/twitter.png" alt=""></a>-->
-<!--                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmail" src="assets/images/gmail.png" alt=""></a>-->
-<!--                <a href="https://github.com/MilashaThathsarani"><img id="github" src="assets/images/github.png" alt=""></a>-->
-<!--            </section>-->
-
-<!--            <ul id="list">-->
-<!--                <li>Milasha Thathsarani</li>-->
-<!--                <br>-->
-<!--                <li>Matara</li>-->
-<!--                <br>-->
-<!--                <li>22 years</li>-->
-<!--                <br>-->
-<!--                <li>0769050886</li>-->
-<!--            </ul>-->
-
-<!--        </section>-->
-<!--        <section>-->
-<!--            <h1>About me_</h1>-->
-<!--        </section>-->
-
-<!--    </main>-->
+</section>
 
 
 
