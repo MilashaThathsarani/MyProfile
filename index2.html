@@ -29,7 +29,7 @@
     .container {
         width: 100%;
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), black), url("assets/images/background.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("assets/images/wwwww.jpeg");
         background-size: cover;
         background-position: center;
         padding: 0.8%;
@@ -200,31 +200,46 @@
         height: 0;
     }
     body>section>section>h1:nth-child(2){
-        position: absolute;
+        font-size: 150px;
         left: 90px;
-        font-size: 55px;
-        top: 280px;
-        color: burlywood;
-        font-family:Calibri;
-        animation: fadeIn2 6s;
-        animation-fill-mode: forwards;
-        animation-iteration-count: infinite;
+        top: 230px;
+        position: absolute;
+        color: transparent;
         width: 910px;
-        margin: 0;
-        height: 0;
+        margin-left: -10px;
+        line-height: 160px;
+        -webkit-text-stroke: 1px #fff;
+        background: url("assets/images/back.png");
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back1 20s linear infinite;
+    }
+    @keyframes back1{
+        100%{
+            background-position: 2000px 0;
+        }
+
     }
 
     body>section>section>h1:nth-child(3){
         position: absolute;
         left: 90px;
         font-size: 20px;
-        top: 550px;
+        top: 560px;
         font-family: "Bell MT";
         margin: 0;
         width: 500px;
         height: 0;
         color: white;
 
+    }
+
+    body>section>section>p{
+        position: absolute;
+        left: 90px;
+        top: 300px;
+        color: white;
+        font-size: 35px;
     }
 
     @keyframes fadeIn {
@@ -1324,10 +1339,11 @@
 
         <section>
             <h1><b>Hi,</b></h1>
-            <h1>Milasha </b></h1>
+            <h1>Milasha</h1>
 
             <h1><b>I'm Software Engineer<br> <br>
                 Web Designer</b></h1>
+            <p>I,m</p>
         </section>
 
 
@@ -1361,7 +1377,7 @@
                         <li>0769050886</li>
                     </ul>
 
-                    <h1>About me_</h1>
+<!--                    <h1>About me_</h1>-->
 </section>
 
 <!-- ---------------------------------------------------------------------->
@@ -1388,7 +1404,7 @@
         <img src="assets/images/school.jpg" alt="" >
     </section>
 
-        <h1>Education_</h1>
+<!--        <h1>Education_</h1>-->
 
 </section>
 
@@ -1400,7 +1416,7 @@
 
 
     <section>
-        <h1><b>Skills_</b></h1>
+<!--        <h1><b>Skills_</b></h1>-->
     </section>
 
     <section>
@@ -1423,7 +1439,7 @@
 
 <section id="s5" style="height: 100vh">
 
-    <section><h1><b>Projects_</b></h1></section>
+<!--    <section><h1><b>Projects_</b></h1></section>-->
 
     <section>
         <div>
@@ -1447,7 +1463,7 @@
 
 <section id="s6" style="height: 100vh">
 
-    <section><h1>Assignments_</h1></h></section>
+<!--    <section><h1>Assignments_</h1></h></section>-->
     <section>
         <div>
             <a href="https://milashathathsarani.github.io/CSS-Assignment01/">Assignment 01</a>
@@ -1504,7 +1520,7 @@
     </section>
 
     <section>
-        <h1>Activities_</h1>
+<!--        <h1>Activities_</h1>-->
     </section>
 
 
@@ -1549,7 +1565,7 @@
         </form>
     </section>
     <section>
-        <h1>Contact_</h1>
+<!--        <h1>Contact_</h1>-->
     </section>
 </section>
 
