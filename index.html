@@ -16,45 +16,41 @@
 </head>
 
 <style>
-
-    /*--------------------------------------------------------------------------------*/
-
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'poppins',sans-serif;
+    body{
+        background-color: #615959;
     }
 
-    .container {
-        width: 100%;
-        height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("assets/images/background.png");
-        background-size: cover;
-        background-position: center;
-        padding: 0.8%;
-        position: relative;
-    }
-
-    header {
+    header{
         width: 100vw;
+        height: 70px;
+        background-color:#928686;
         top: 0;
         left: 0;
-        position: fixed;
-        z-index: 2;
-        height: 60px;
-
-        background: rgb(0,0,0);
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,49,49,1) 0%, rgba(57,54,64,1) 25%, rgba(59,56,70,1) 49%,
-        rgba(61,58,76,1) 62%, rgba(87,80,139,1) 99%, rgba(203,203,203,1) 100%, rgba(203,203,203,1) 100%);
     }
+
+    #navimg{
+        width: 60px;
+        height: 50px;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    #mainImg{
+        width: 300px;
+        position: absolute;
+        left: 1150px;
+        top: 110px;
+        height: 500px;
+    }
+
     #home{
         position: absolute;
         left: 470px;
         text-decoration: none;
         color: white;
-        top: 16px;
-        font-size: 23px;
+        top: 25px;
+        font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
     }
@@ -71,7 +67,7 @@
         left: 580px;
         text-decoration: none;
         color: white;
-        top: 16px;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -89,7 +85,7 @@
         left: 720px;
         text-decoration: none;
         color: white;
-        top: 16px;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -106,7 +102,7 @@
         left: 870px;
         text-decoration: none;
         color: white;
-        top: 16px;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -124,7 +120,7 @@
         left: 970px;
         text-decoration: none;
         color: white;
-        top: 16px;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -141,8 +137,8 @@
         position: absolute;
         left: 1100px;
         text-decoration: none;
-        color:white;
-        top: 16px;
+        color: white;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -158,8 +154,8 @@
         position: absolute;
         left: 1275px;
         text-decoration: none;
-        color:white;
-        top: 16px;
+        color: white;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -176,7 +172,7 @@
         left: 1400px;
         text-decoration: none;
         color: white;
-        top: 16px;
+        top: 25px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -188,11 +184,20 @@
         color: #181818;
         font-size: 27px;
     }
-    body>section:nth-child(1)>section>h1:nth-child(1){
+
+    footer{
+        background-color: #333333;
         position: absolute;
-        left: 90px;
+        width: 100vw;
+        height: 90px;
+        bottom: 0;
+    }
+
+    section>section>h1:nth-child(1){
+        position: relative;
+        left: 100px;
         font-size: 70px;
-        top: 130px;
+        top: 40px;
         color: white;
         font-family: Calibri;
         animation: fadeIn 4s;
@@ -205,47 +210,69 @@
         margin-bottom: 0px;
         height: 0;
     }
-    body>section:nth-child(1)>section>h1:nth-child(2){
-        font-size: 150px;
-        left: 90px;
-        top: 230px;
-        position: absolute;
-        color: transparent;
+    section>section>h1:nth-child(2){
+        position: relative;
+        left: 150px;
+        font-size: 70px;
+        top: 180px;
+        color: burlywood;
+        font-family:Tahoma;
+        animation: fadeIn2 6s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
         width: 910px;
-        margin-left: -10px;
-        line-height: 160px;
-        -webkit-text-stroke: 1px #fff;
-        background: url("assets/images/back.png");
-        -webkit-background-clip: text;
-        background-position: 0 0;
-        animation: back1 20s linear infinite;
-    }
-    @keyframes back1{
-        100%{
-            background-position: 2000px 0;
-        }
-
+        margin: 0;
+        height: 0;
     }
 
-    body>section:nth-child(1)>section>h1:nth-child(3){
-        position: absolute;
-        left: 90px;
-        font-size: 20px;
-        top: 560px;
+    section>section>h1:nth-child(3){
+        position: relative;
+        left: 100px;
+        font-size: 40px;
+        top: 370px;
         font-family: "Bell MT";
         margin: 0;
-        width: 500px;
+        width: 400px;
         height: 0;
-        color: white;
 
     }
 
-    body>section:nth-child(1)>section>p{
-        position: absolute;
-        left: 90px;
-        top: 300px;
-        color: white;
-        font-size: 35px;
+    body>footer>h2:nth-child(1){
+        position: relative;
+        color: #928686;
+        left: 730px;
+        top: 30px;
+        margin: 0;
+        width: 300px;
+        height: 0;
+    }
+
+    body>footer>h2:nth-child(2){
+        position: relative;
+        color: #928686;
+        left: 1180px;
+      top: 32px;
+        margin: 0;
+        width: 200px;
+        height: 0;
+    }
+
+    body>footer>h2:nth-child(3){
+        position: relative;
+        color: #928686;
+        left: 100px;
+        top: 10px;
+        width: 300px;
+        height: 0;
+    }
+    body>footer>h2:nth-child(4){
+        position: relative;
+        color: #928686;
+        left: 450px;
+        bottom: 10px;
+        margin: 0;
+        width: 200px;
+        height: 0;
     }
 
     @keyframes fadeIn {
@@ -265,1349 +292,540 @@
         }
     }
 
-    /*-----------------------------------------------------------------------------------------------------*/
-
-
-    body>section:nth-child(2){
-        background: rgb(73,73,74);
-        background: linear-gradient(90deg, rgba(73,73,74,0.7038165608040091) 0%, rgba(0,0,0,1) 100%);
-    }
-    #me {
-        position: relative;
-        width: 380px;
-        border-radius: 100%;
-        left: 50px;
-        top: 180px;
-    }
-
-    #girl {
-        position: absolute;
-        width: 500px;
-        right: 70px;
-        top: 830px;
-        height: 530px;
-        animation-name: girl;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-
-    }
-
-    #list{
-        position: relative;
-        left: 580px;
-        bottom: 195px;
-        font-size: 35px;
-        color: whitesmoke;
-        margin: 0;
-        width: 400px;
-        height: 0;
-        font-family: "Baskerville Old Face";
-    }
-
-    #whatsapp{
-        position: relative;
-        width: 50px;
-        left: 75px;
-        top:220px;
-    }
-    #facebook{
-        position: relative;
-        width: 50px;
-        top: 220px;
-        left: 80px;
-
-    }
-    #linkedin{
-        position: relative;
-        width: 50px;
-        top: 220px;
-        left: 85px;
-    }
-    #twitter{
-        position: relative;
-        width: 50px;
-        left: 95px;
-        top: 220px;
-    }
-    #gmail{
-        position: relative;
-        width: 50px;
-        left: 100px;
-        top: 220px;
-    }
-    #github{
-        position: relative;
-        width: 50px;
-        left: 100px;
-        top: 220px;
-    }
-
-    /* main>section>section:nth-child(3){*/
-    /*     position: relative;*/
-    /*     width: 600px;*/
-    /* }*/
-
-    body>section:nth-child(2)>h1{
-        position: relative;
-        height: 500px;
-        bottom: 370px;
-        left: 60px;
-    }
-
-    /*main>section:nth-child(2)>h1{*/
-    /*    position: relative;*/
-    /*    color: white;*/
-    /*    left: 50px;*/
-    /*    bottom: 400px;*/
-    /*    font-size: 30px;*/
-    /*    font-family: Candara;*/
-    /*    width: 200px;*/
-    /*    margin: 0;*/
-    /*    height: 0;*/
-
-    /*}*/
-
-    @keyframes girl {
-        2% {
-            transform: rotate(0deg);
-
-
-        }
-        30% {
-            transform: rotate(5deg);
-
-        }
-        70% {
-
-            transform: rotate(-5deg);
-
-        }
-        90% {
-            transform: rotate(5deg);
-
+    @media all and (max-width: 320px) {
+        header {
+            height: 60px;
         }
 
-    }
-
-
-    /*-----------------------------------------------------------------------------*/
-
-
-    body>section:nth-child(3){
-        background-color: white;
-    }
-
-    /*body>section:nth-child(3)>h1{*/
-    /*    position: absolute;*/
-    /*    color: black;*/
-    /*    left: 50px;*/
-    /*    bottom: 560px;*/
-    /*    font-size: 30px;*/
-    /*    margin: 0;*/
-    /*    width: 600px;*/
-    /*    height: 0;*/
-
-    /*}*/
-
-    body>section:nth-child(3)>section:nth-child(1)>img{
-        width: 100px;
-        height: 130px;
-        position: absolute;
-        left: 700px;
-        z-index: 1;
-        top: 1570px;
-    }
-
-    body>section:nth-child(3)>section:nth-child(2)>img{
-        width: 500px;
-        height: 530px;
-        position: absolute;
-        left: 515px;
-        top: 1630px;
-
-    }
-
-    body>section:nth-child(3)>section:nth-child(3)>img{
-        width: 150px;
-        height: 105px;
-        border-radius: 5%;
-        position: absolute;
-        left: 35px;
-        top: 1640px;
-    }
-
-    body>section:nth-child(3)>section:nth-child(3)>h1{
-        position:relative;
-        left: 35px;
-        top: 300px;
-        margin: 0;
-        width: 600px;
-        height: 0;
-        font-size: 25px;
-        color: #182C61;
-    }
-
-    body>section:nth-child(3)>section:nth-child(4)>h1{
-        position:relative;
-        left: 1050px;
-        top: 600px;
-        margin: 0;
-        width: 600px;
-        height: 0;
-        font-size: 25px;
-        color: #182C61;
-    }
-
-    body>section:nth-child(3)>section:nth-child(4)>img {
-        width: 150px;
-        height: 150px;
-        border-radius: 5%;
-        position: absolute;
-        left: 1250px;
-        top: 1840px;
-
-    }
-
-        body>section:nth-child(3)>h1{
+        #navimg {
+            width: 30px;
+            height: 30px;
             position: relative;
-            height: 500px;
-            top: 90px;
-            left: 60px;
-    }
-
-
-
-    /*--------------------------------------------------------------------------*/
-
-    body>section:nth-child(4){
-        background: rgb(73,73,74);
-        background: linear-gradient(90deg, rgba(73,73,74,0.7038165608040091) 0%, rgba(0,0,0,1) 100%);
-    }
-
-    body>section:nth-child(4)>section:nth-child(1)>h1{
-        position: relative;
-        color: white;
-        left: 60px;
-        bottom: 1000px;
-        font-size: 30px;
-        font-family: Candara;
-        top: 75px;
-    }
-    body>section:nth-child(4)>section:nth-child(2) {
-        width: 100vw;
-        height: 250px;
-        top: 2350px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        /*align-items: center;*/
-        /*align-items: end;*/
-        /*justify-content: space-around;*/
-        justify-content: space-evenly;
-
-    }
-
-    body>section:nth-child(4)>section:nth-child(2)>div{
-        width: 200px;
-        height: 200px;
-        border-radius: 10%;
-
-    }
-
-    body>section:nth-child(4)>section:nth-child(3) {
-        width: 100vw;
-        height: 250px;
-        top: 2600px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        /*align-items: center;*/
-        /*align-items: end;*/
-        /*justify-content: space-around;*/
-        justify-content: space-evenly;
-    }
-
-    body>section:nth-child(4)>section:nth-child(3)>div{
-        width: 200px;
-        height: 200px;
-        border-radius: 10%;
-    }
-
-    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1){
-        background-color: gray;
-        background: url("assets/images/java1.png");
-        background-size: cover;
-        background-position: center;
-        transition: 0.8s;
-    }
-
-    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1):hover{
-        transition-property: all;
-        transition: 0.8s;
-        cursor: pointer;
-    }
-
-    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
-        background: url("assets/images/mysql.png");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
-        background: url("assets/images/javafx-tutorial.png");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(4){
-        background: url("assets/images/jasper.png");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(1){
-        background: url("assets/images/images.png");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(2){
-        background: url("assets/images/css1.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(3){
-        background: url("assets/images/js.png");
-        background-size: cover;
-        background-position: center;
-    }
-    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(4){
-        background: url("assets/images/node.png");
-        background-size: cover;
-        background-position: center;
-    }
-
-    /*--------------------------------------------------------------------------------*/
-
-
-    body>section:nth-child(5){
-        background-color: white;
-    }
-
-    body>section:nth-child(5)>section:nth-child(1){
-        height: 330px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content:space-evenly ;
-        top: 350px;
-    }
-
-    body>section:nth-child(5)>section>div{
-        position: relative;
-        height: 300px;
-        width: 400px;
-        border-radius: 10%;
-
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(1){
-        background-color:white;
-        border: 5px solid gray;
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(2){
-        background-color:white;
-        border: 5px solid gray;
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(3){
-        background-color:white;
-        border: 5px solid gray;
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(1){
-        background: url("assets/images/Screenshot (286).png");
-        background-size: cover;
-        background-position: center;
-
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(1)>a{
-        position: relative;
-        top: 230px;
-        left: 60px;
-        width: max-content;
-        height: max-content;
-        color:black;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(2){
-        background: url("assets/images/Screenshot (289).png");
-        background-size: cover;
-        background-position: center;
-
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(2)>a{
-        position: relative;
-        top: 230px;
-        left: 80px;
-        width: max-content;
-        height: max-content;
-        color:black;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(3){
-        background: url("assets/images/Screenshot (291).png");
-        background-size: cover;
-        background-position: center;
-
-    }
-
-    body>section:nth-child(5)>section>div:nth-child(3)>a{
-        position: relative;
-        top: 230px;
-        left: 100px;
-        width: max-content;
-        height: max-content;
-        color:black;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-
-    body>section:nth-child(5)>section:nth-child(1){
-        height: 100px;
-    }
-    body>section:nth-child(5)>section:nth-child(1)>h1{
-        position: absolute;
-        color: white;
-        left: 50px;
-        bottom: 560px;
-        font-size: 30px;
-        font-family: Candara;
-        top: 75px;
-    }
-
-    body>section:nth-child(5)>section:nth-child(3)>a>h2{
-        position: relative;
-        left: 710px;
-        top: 100px;
-        color: wheat;
-        font-family: "Bell MT";
-        margin: 0;
-        width: 200px;
-        height: 0;
-
-    }
-
-
-    /*-------------------------------------------------------------------------*/
-
-
-    body>section:nth-child(6){
-        background: rgb(73,73,74);
-        background: linear-gradient(90deg, rgba(73,73,74,0.7038165608040091) 0%, rgba(0,0,0,1) 100%);
-    }
-    body>section:nth-child(6)>section:nth-child(2){
-        width: 100vw;
-        height: 250px;
-        top: 3790px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        /*align-items: center;*/
-        /*align-items: end;*/
-        /*justify-content: space-around;*/
-        justify-content:space-evenly ;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div{
-        position: relative;
-        border: 1px solid white;
-        border-radius: 100%;
-        height: 180px;
-        width: 180px;
-
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
-        border: 15px solid #16a085;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
-        border: 15px solid #2980b9;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
-        border: 15px solid #d35400;
-        border-top: 15px solid white;
-        background-color: #333333;
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
-        border: 15px solid #8e44ad;
-        border-top: 15px solid white;
-        background-color: #333333;
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(5){
-        border: 15px solid #ee5253;
-        border-top: 15px solid white;
-        background-color: #333333;
-    }
-
-    body>section:nth-child(6)>section:nth-child(3){
-        width: 100vw;
-        height: 250px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        top: 4050px;
-        /*align-items: center;*/
-        /*align-items: end;*/
-        /*justify-content: space-around;*/
-        justify-content:space-evenly ;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(3)>div{
-        position: relative;
-        border: 1px solid white;
-        border-radius: 100%;
-        height: 180px;
-        width: 180px;
-
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(1){
-        border: 15px solid #cc8e35;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(2){
-        border: 15px solid #b33939;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(3){
-        border: 15px solid #40407a;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(4){
-        border: 15px solid #e84393;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(5) {
-        border: 15px solid #0fbcf9;
-        border-top: 15px solid white;
-        background-color: #333333;
-
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(1)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(2)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(3)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(4)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(5)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(1)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(2)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(3)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(4)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(5)>a{
-        position: absolute;
-        margin:auto;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: max-content;
-        height: max-content;
-        color: white;
-        font-size: 25px;
-        font-family: Ubuntu;
-        text-decoration: none;
-        animation-name: one;
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(1):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(1):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(2):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(2):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(3):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(3):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(4):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(4):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(5):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(2)>div:nth-child(5):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(1):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(1):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(2):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(2):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(3):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(3):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(4):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(4):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(5):hover{
-        transform: rotate(360deg);
-        transition-duration: 1s;
-        cursor: pointer;
-    }
-    body>section:nth-child(6)>section:nth-child(3)>div:nth-child(5):hover a{
-        transform: rotate(-360deg);
-        transition-duration:1s;
-    }
-
-    body>section:nth-child(6)>section:nth-child(1)>h1{
-        position: absolute;
-        color: white;
-        left: 50px;
-        bottom: 560px;
-        font-size: 30px;
-        font-family: Candara;
-        top: 75px;
-    }
-
-
-
-    /*------------------------------------------------------------------------------------*/
-
-    body>section:nth-child(7){
-        background-color: white;
-    }
-
-    body>section:nth-child(7)>section:nth-child(1){
-        height: 300px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        /*align-items: center;*/
-        /*align-items: end;*/
-        /*justify-content: space-around;*/
-        justify-content:space-evenly ;
-        top: 210px;
-
-    }
-
-    body>section:nth-child(7)>section:nth-child(1)>img{
-        position: relative;
-        height: 300px;
-        width: 300px;
-        animation-name: rotate;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-
-    }
-
-    body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(1){
-        position: relative;
-        left: 190px;
-        top: 290px;
-        color: black;
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        height: 0;
-        font-size: 30px;
-
-    }
-
-    body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(2){
-        position: relative;
-        left: 632px;
-        top: 287px;
-        color: black;
-        margin: 0;
-        padding: 0;
-        width: 250px;
-        height: 0;
-        font-size: 30px;
-
-    }
-
-    body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(3) {
-        position: relative;
-        left: 1120px;
-        top: 285px;
-        margin: 0;
-        padding: 0;
-        color: black;
-        width: 200px;
-        height: 0;
-        font-size: 30px;
-    }
-    body>section:nth-child(7)>section:nth-child(3)>h1{
-        position: absolute;
-        color: black;
-        left: 60px;
-        font-size: 30px;
-        font-family: Candara;
-        top: 4430px;
-    }
-    @keyframes rotate {
-        2% {
-            transform: rotate(0deg);
-
+            left: 10px;
+            top: 15px;
 
         }
-        30% {
-            transform: rotate(16deg);
 
+        section > section > h1:nth-child(1) {
+            font-size: 30px;
+            top: 30px;
+            color: white;
+            font-family: Calibri;
+            left: 30px;
         }
-        70% {
 
-            transform: rotate(-16deg);
-
+        section > section > h1:nth-child(2) {
+            left: 30px;
+            font-size: 22px;
+            top: 300px;
         }
-        90% {
-            transform: rotate(16deg);
 
+        #mainImg {
+            width: 160px;
+            left: 124px;
+            top: 120px;
+            height: 230px;
+        }
+
+        section > section > h1:nth-child(3) {
+            left: 30px;
+            font-size: 20px;
+            top: 360px;
+        }
+
+        body > footer {
+            height: 70px;
+        }
+        body > footer > h2:nth-child(1) {
+            left: 30px;
+            top: 28px;
+            font-size: 13px;
+        }
+
+        body > footer > h2:nth-child(3) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(4) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(2) {
+            left: 240px;
+            top: 30px;
+            font-size: 12px;
         }
     }
 
-    /*---------------------------------------------------------------------------------------------*/
+    @media all and (min-width: 375px)and (max-width: 425px) {
+        header {
+            width: 375px;
+            height: 54px;
+        }
 
-    body>section:nth-child(8){
-        background: rgb(73,73,74);
-        background: linear-gradient(90deg, rgba(73,73,74,0.7038165608040091) 0%, rgba(0,0,0,1) 100%);
-    }
+        section > section > h1:nth-child(1) {
+            font-size: 35px;
+            top: 28px;
+            left: 45px;
+        }
 
-    #whatsappc{
-        position:absolute;
-        width: 50px;
-        left: 75px;
-        top: 5240px;
-    }
-    #facebookc{
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top:5310px;
+        #navimg {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 10px;
+            top: 15px;
+        }
 
-    }
-    #linkedinc{
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top: 5380px;
-    }
-    #twitterc{
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top: 5450px;
-    }
-    #gmailc{
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top: 5520px;
-    }
-    #githubc {
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top: 5590px;
-    }
+        #mainImg {
+            width: 160px;
+            left: 150px;
+            top: 100px;
+            height: 270px;
+        }
 
-    #placehold{
-        position: absolute;
-        width: 50px;
-        left: 75px;
-        top: 5660px;
-    }
+        section > section > h1:nth-child(2) {
+            left: 50px;
+            font-size: 22px;
+            top: 325px;
+        }
 
+        section > section > h1:nth-child(3) {
+            left: 30px;
+            font-size: 20px;
+            top: 375px;
+        }
 
-    body>section:nth-child(8)>section:nth-child(1){
-        font-size: 16px;
-        color: white;
+        body > footer {
+            height: 70px;
+        }
 
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
-        position: relative;
-        left: 180px;
-        top: 195px;
-        font-family: "Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-        font-size: 33px;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
-        position: relative;
-        left: 180px;
-        top: 205px;
-        font-family: "Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-        font-size: 30px;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
-        position: relative;
-        left: 180px;
-        top: 335px;
-        font-family: "Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-        font-size: 30px;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
-        position: relative;
-        left: 180px;
-        top: 405px;
-        font-family:"Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
-        position: relative;
-        left: 180px;
-        top: 470px;
-        font-family: "Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
-        position: relative;
-        left: 180px;
-        top: 545px;
-        font-family: "Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
-    }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
-        position: relative;
-        left: 180px;
-        top: 615px;
-        font-family:"Bell MT";
-        width: 500px;
-        height: 0;
-        margin: 0;
+        body > footer > h2:nth-child(1) {
+            left: 30px;
+            top: 28px;
+            font-size: 13px;
+        }
+
+        body > footer > h2:nth-child(3) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(4) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(2) {
+            left: 270px;
+            top: 29px;
+            font-size: 13px;
+        }
+        #navimg{
+            display: none;
+        }
+        #home {
+            left: 6px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #aboutme {
+            left: 42px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #education {
+            left: 91px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #skill {
+            left: 143px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #projects {
+            left: 176px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #assignment {
+            left: 222px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #activities {
+            left: 285px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #contact {
+             left: 331px;
+            top: 22px;
+            font-size: 10px;
+        }
     }
 
-    body>section:nth-child(8)>section:nth-child(3){
-        position: absolute;
-        border: 2px solid white;
-        height: 430px;
-        right: 90px;
-        width: 500px;
-        top: 5200px;
-        background-color: white;
-        border-radius: 5%;
+    @media all and (min-width: 425px)and (max-width: 768px) {
+        header {
+            width: 425px;
+            height: 55px;
+        }
+        header>nav{
+            width: 425px;
+        }
+
+        section > section > h1:nth-child(1) {
+            font-size: 40px;
+            top: 25px;
+            left: 45px;
+        }
+
+        #navimg {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 10px;
+            top: 15px;
+        }
+
+        #mainImg {
+            width: 151px;
+            height: 208px;
+            left: 163px;
+            font-size: 23px;
+            top: 83px;
+        }
+
+        section > section > h1:nth-child(2) {
+            left: 44px;
+            font-size: 23px;
+            top: 252px;
+        }
+
+        section > section > h1:nth-child(3) {
+            left: 30px;
+            font-size: 20px;
+            top: 313px;
+        }
+
+        #navimg{
+            display: none;
+        }
+        #home {
+            left: 7px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #aboutme {
+            left: 43px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #education {
+            left: 93px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #skill {
+            left: 143px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #projects {
+            left: 173px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #assignment {
+            left: 216px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #activities {
+            left: 276px;
+            top: 22px;
+            font-size: 10px;
+        }
+        #contact {
+            left: 322px;
+            top: 22px;
+            font-size: 10px;
+        }
+
+        body > footer {
+            height: 55px;
+            top: 448px;
+            width: 425px;
+        }
+        body > footer > h2:nth-child(1) {
+            left: 30px;
+            top: 22px;
+            font-size: 13px;
+        }
+
+        body > footer > h2:nth-child(3) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(4) {
+            display: none;
+        }
+
+        body > footer > h2:nth-child(2) {
+            left: 270px;
+            top: 22px;
+            font-size: 13px;
+        }
     }
 
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1){
-        position: absolute;
-        left: 50px;
-        top: 50px;
-        width: 400px;
-        height: 30px;
-        border-radius: 10%;
+        @media all and (min-width: 768px)and (max-width: 1024px) {
+            header {
+                width: 768px;
+                height: 30px;
+            }
+            section > section > h1:nth-child(1) {
+                font-size: 26px;
+                top: 23px;
+                left: 25px;
+            }
+
+            #navimg {
+                display: inherit;
+                width: 20px;
+                height: 20px;
+                position: relative;
+                left: 5px;
+                top: 5px;
+                margin: 0;
+            }
+
+            #mainImg {
+                width: 100px;
+                left: 236px;
+                top: 60px;
+                height: 161px;
+            }
+
+            section > section > h1:nth-child(2) {
+                left: 25px;
+                font-size: 17px;
+                top: 98px;
+            }
+
+            section > section > h1:nth-child(3) {
+                left: 25px;
+                font-size: 13px;
+                top: 158px;
+            }
+
+            body > footer {
+                height: 31px;
+                top: 243px;
+            }
+
+            body > footer > h2:nth-child(3) {
+                left: 27px;
+                top: 12px;
+                font-size: 8px;
+                margin: 0;
+                display: inherit;
+            }
+
+            body > footer > h2:nth-child(1) {
+                left: 142px;
+                top: 12px;
+                font-size: 8px;
+            }
+            body > footer > h2:nth-child(2) {
+                left: 291px;
+                top: 13px;
+                font-size: 8px;
+            }
+            #home {
+                left: 33px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #aboutme {
+                left: 64px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #education {
+                left: 107px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #skill {
+                left: 155px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #projects {
+                left: 184px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #assignment {
+                left: 224px;
+                top: 10px;
+                font-size: 10px;
+            }
+            #activities {
+                left: 286px;
+                top: 10px;
+                font-size: 9px;
+            }
+            #contact {
+                left: 326px;
+                top: 10px;
+                font-size: 9px;
+            }
+        }
+
+            @media all and (min-width: 1024px)and (max-width: 1440px){
+                header {
+                    width: 1024px;
+                    height: 29px;
+                }
+                section>section>h1:nth-child(1) {
+                    font-size: 27px;
+                    top: 9px;
+                    left: 18px;
+                }
+                #navimg {
+                    width: 22px;
+                    height: 22px;
+                    position: relative;
+                    left: 5px;
+                    top: 3px;
+                }
+                #mainImg {
+                    width: 96px;
+                    left: 270px;
+                    top: 48px;
+                    height: 140px;
+                }
+                section > section > h1:nth-child(2) {
+                    left: 34px;
+                    font-size: 18px;
+                    top: 67px;
+                }
+                section > section > h1:nth-child(3) {
+                    left: 20px;
+                    font-size: 13px;
+                    top: 111px;
+                }
+
+                body > footer {
+                    height: 28px;
+                    top: 197px;
+                }
+
+                body > footer > h2 {
+                }
+                #home {
+                    left: 35px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #aboutme {
+                    left: 71px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #education {
+                    left: 121px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #skill {
+                    left: 171px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #projects {
+                    left: 200px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #assignment {
+                    left: 242px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #activities {
+                    left: 305px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                #contact {
+                    left: 351px;
+                    top: 9px;
+                    font-size: 10px;
+                }
+                body > footer > h2:nth-child(3) {
+                    left: 23px;
+                    top: 10px;
+                    font-size: 7px;
+                    margin: 0;
+                    display: inherit;
+                }
+
+                body > footer > h2:nth-child(1) {
+                    left: 196px;
+                    top: 9px;
+                    font-size: 8px;
+                }
+                body > footer > h2:nth-child(2) {
+                    left: 336px;
+                    top: 10px;
+                    font-size: 7px;
+                }
+                body>footer>h2:nth-child(4) {
+                    left: 120px;
+                    top: 10px;
+                    font-size: 7px;
+                }
     }
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
-        position: absolute;
-        left: 50px;
-        top: 110px;
-        width: 400px;
-        height: 60px;
-        border-radius: 10%;
-    }
-
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
-        position: absolute;
-        left: 50px;
-        top: 200px;
-        width: 400px;
-        height: 180px;
-        border-radius: 10%;
-    }
-
-    body>section:nth-child(8)>section:nth-child(3)>form>button{
-        position: absolute;
-        left: 150px;
-        top: 470px;
-        width: 200px;
-        height: 45px;
-        border-radius: 10%;
-        font-size: 22px;
-        background-color: whitesmoke;
-        font-family: "Bodoni MT";
-    }
-
-    body>section:nth-child(8)>section:nth-child(4) {
-        position: relative;
-        color: white;
-        left: 50px;
-        bottom: 410px;
-        font-size: 16px;
-        font-family: Candara;
-        margin: 0;
-        width: 300px;
-        height: 0;
-    }
-
-
-
 
 </style>
-
-
-
-
 <body>
-<section id="s1" style="height: 100vh">
-    <div class="container"></div>
 
-    <header>
-        <nav>
-            <a href="#s1" target="_self" id="home">Home</a>
-            <a href="#s2" target="_self" id="aboutme">Aboutme</a><!--target="_blank" or target="_self"-->
-            <a href="#s3" target="_self" id="education">Education</a>
-            <a href="#s4" target="_self" id="skill">Skills</a>
-            <a href="#s5" target="_self" id="projects">Projects</a>
-            <a href="#s6" target="_self" id="assignment">Assignments</a>
-            <a href="#s7" target="_self" id="activities">Activites</a>
-            <a href="#s8" target="_self" id="contact">Contact</a>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <a href="index.html" target="_self" id="home">Home</a>
+        <a href="pages/aboutme.html" target="_self" id="aboutme">Aboutme</a><!--target="_blank" or target="_self"-->
+       <a href="pages/education.html" target="_self" id="education">Education</a>
+        <a href="pages/skill.html" target="_self" id="skill">Skills</a>
+        <a href="pages/projects.html" target="_self" id="projects">Projects</a>
+        <a href="pages/assginment.html" target="_self" id="assignment">Assignments</a>
+        <a href="pages/activities.html" target="_self" id="activities">Activites</a>
+        <a href="pages/contact.html" target="_self" id="contact">Contact</a>
+        <img id="navimg" src="assets/images/navigationBarImg.png" alt="">
+    </nav>
+</header>
 
+<main>
+    <section>
         <section>
             <h1><b>Hi,</b></h1>
-            <h1>Milasha</h1>
+            <h1>I'm Milasha Thathsarani</b></h1>
 
             <h1><b>I'm Software Engineer<br> <br>
-                Web Designer</b></h1>
-            <p>I,m</p>
+                            Web Designer</b></h1>
         </section>
-
-
-</section>
-
-<!--  ---------------------------------------------------------------------------->
-
-<section id="s2" style="height: 100vh">
-
-    <section>
-                        <img id="me" src="assets/images/me.jpg" alt="">
-                        <img id="girl" src="assets/images/clip-girl-studying.png" alt="">
-                    </section>
-
-                    <section>
-                        <a href="https://web.whatsapp.com/"><img id="whatsapp" src="assets/images/WhatsApp_icon.png" alt=""></a>
-                        <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebook" src="assets/images/facebook_icon.png" alt="" ></a>
-                        <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedin" src="assets/images/linkedin%20(1).png" alt=""></a>
-                        <a href="https://twitter.com/milashathathsa"><img id="twitter" src="assets/images/twitter.png" alt=""></a>
-                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmail" src="assets/images/gmail.png" alt=""></a>
-                        <a href="https://github.com/MilashaThathsarani"><img id="github" src="assets/images/github.png" alt=""></a>
-                    </section>
-
-                    <ul id="list">
-                        <li>Milasha Thathsarani</li>
-                        <br>
-                        <li>Matara</li>
-                        <br>
-                        <li>22 years</li>
-                        <br>
-                        <li>0769050886</li>
-                    </ul>
-
-                 <h1>About me_</h1>
-</section>
-
-<!-- ---------------------------------------------------------------------->
-
-
-
-<section id="s3" style="height: 100vh">
-
-    <section>
-        <img src="assets/images/pngaaa.com-3712293.png" alt="">
+        <section>
+            <img id="mainImg" src="assets/images/pngegg.png" alt="" width="300">
+        </section>
     </section>
+</main>
 
-    <section> <img src="assets/images/hickgirl.jpg" alt=""></section>
-
-    <section>
-        <h1><b>Institute Of Software Engineering <br> Galle <br>
-            2020-2022</b></h1>
-        <img src="assets/images/ijse.jpg" alt="" >
-    </section>
-
-    <section>
-        <h1><b>MR/Mirissa Central Collage <br>
-            2005-2019</b></h1>
-        <img src="assets/images/school.jpg" alt="" >
-    </section>
-
-        <h1>Education_</h1>
-
-</section>
-
-
-<!-- ------------------------------------------------------------------------------->
-
-
-<section id="s4" style="height: 100vh">
-
-
-    <section>
-        <h1><b>Skills_</b></h1>
-    </section>
-
-    <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-
-    <section>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
-</section>
-
-
-<!------------------------------------------------------------------------------------>
-
-<section id="s5" style="height: 100vh">
-
-
-
-
-    <section>
-        <div>
-            <a href="https://github.com/MilashaThathsarani/Salon-Management-System"><b>Salon Management System</b></a>
-
-        </div>
-        <div>
-            <a href="https://github.com/MilashaThathsarani/Supermarket-System-MVC-"><b>Super Market System</b></a>
-        </div>
-        <div>
-            <a href="https://github.com/MilashaThathsarani/Parking-System-"><b>Parking System</b></a>
-        </div>
-    </section>
-
-    <section><a href="https://github.com/MilashaThathsarani"><h2>View more</h2></a></section>
-
-</section>
-
-
-<!-- -------------------------------------------------------------------------------------->
-
-<section id="s6" style="height: 100vh">
-
-    <section>
-<!--        <h1>Assignments_</h1></h>-->
-    </section>
-    <section>
-        <div>
-            <a href="https://milashathathsarani.github.io/CSS-Assignment01/">Assignment 01</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/CSS-Assignment02/">Assignment 02</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/CSS-Assignment03/">Assignment 03</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/CSS-Assignment04/">Assignment 04</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/Transition---Assignment-01/">Assignment 05</a>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <a href="https://milashathathsarani.github.io/Transition---Assignment-02/">Assignment 06</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/Animation-Assignment-01/">Assignment 07</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/Animation-Assignment-02/">Assignment 08</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/Animation-Assignment-03/">Assignment 09</a>
-        </div>
-        <div>
-            <a href="https://milashathathsarani.github.io/Animation-Assignment-04/">Assignment 10</a>
-        </div>
-    </section>
-
-</section>
-
-
-<!----------------------------------------------------------------------------------------->
-
-
-<section id="s7" style="height: 100vh">
-    <section>
-        <img src="assets/images/sisisis.jpg" alt="">
-        <img src="assets/images/Girl%20playing%20violin.png" alt="" >
-        <img src="assets/images/woman-travel-clipart-lg.png" alt="">
-    </section>
-
-    <section>
-        <h1><b>Singing</b></h1>
-        <h1><b>Playing Violin</b></h1>
-        <h1><b>Travelling</b></h1>
-    </section>
-
-    <section>
-        <h1>Activities_</h1>
-    </section>
-
-
-</section>
-
-
-<!---------------------------------------------------------------------------------->
-
-
-<section id="s8" style="height: 100vh">
-
-    <section>
-        <h1>0769050886</h1>
-        <h1>Milasha Thathsarani</h1>
-        <h1>Milasha Thathsarani</h1>
-        <h1>Milasha Thathsarani</h1>
-        <h1>milashathathsarani99@gmail.com</h1>
-        <h1>MilashaThathsarani</h1>
-        <h1>Mirissa,Matara,Sri Lanka</h1>
-
-    </section>
-    <section>
-        <a href="https://web.whatsapp.com/"><img id="whatsappc" src="assets/images/WhatsApp_icon.png" alt=""></a>
-        <a href="https://ne-np.facebook.com/milasha.thathsarani"><img id="facebookc" src="assets/images/facebook_icon.png" alt="" ></a>
-        <a href="https://www.linkedin.com/in/milasha-thathsarani-96319b20b/?originalSubdomain=lk"><img id="linkedinc" src="assets/images/linkedin%20(1).png" alt=""></a>
-        <a href="https://twitter.com/milashathathsa"><img id="twitterc" src="assets/images/twitter.png" alt=""></a>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img id="gmailc" src="assets/images/gmail.png" alt=""></a>
-        <a href="https://github.com/MilashaThathsarani"><img id="githubc" src="assets/images/github.png" alt=""></a>
-        <a href="https://www.google.lk/maps/place/Mirissa/@5.9515825,80.455327,15z/data=!3m1!4b1!4m5!3m4!1s0x3ae13fce3177dc59:0xa2d8a78b36dc9c90!8m2!3d5.948262!4d80.4715866?hl=en"><img id="placehold" src="assets/images/placeholder.png" alt=""></a>
-    </section>
-
-    <section>
-        <form action="https://ijse.lk">
-            <input type="text" placeholder="Your Id">
-
-            <input type="text" placeholder="Your Name">
-
-            <input type="text" placeholder="Your Response">
-
-            <button>Submit</button>
-
-        </form>
-    </section>
-    <section>
-<!--        <h1>Contact_</h1>-->
-    </section>
-</section>
-
+<footer>
+    <h2>milashathathsarani99@gmail.com</h2>
+    <h2>0769050886</h2>
+    <h2>S.N.Milasha Thathsarani</h2>
+    <h2>Software Engineer</h2>
+</footer>
 
 </body>
 
