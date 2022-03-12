@@ -1,0 +1,3738 @@
+/*Home*/
+
+@media all and (max-width: 320px) {
+    header {
+        height: 60px;
+    }
+
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+
+    }
+
+    section > section > h1:nth-child(1) {
+        font-size: 30px;
+        top: 30px;
+        color: white;
+        font-family: Calibri;
+        left: 30px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 30px;
+        font-size: 22px;
+        top: 300px;
+    }
+
+    #mainImg {
+        width: 160px;
+        left: 124px;
+        top: 120px;
+        height: 230px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 360px;
+    }
+
+    body > footer {
+        height: 70px;
+    }
+    body > footer > h2:nth-child(1) {
+        left: 30px;
+        top: 28px;
+        font-size: 13px;
+    }
+
+    body > footer > h2:nth-child(3) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(4) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(2) {
+        left: 240px;
+        top: 30px;
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 375px)and (max-width: 425px) {
+    header {
+        width: 375px;
+        height: 54px;
+    }
+
+    section > section > h1:nth-child(1) {
+        font-size: 35px;
+        top: 28px;
+        left: 45px;
+    }
+
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 160px;
+        left: 150px;
+        top: 100px;
+        height: 270px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 50px;
+        font-size: 22px;
+        top: 325px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 375px;
+    }
+
+    body > footer {
+        height: 70px;
+    }
+
+    body > footer > h2:nth-child(1) {
+        left: 30px;
+        top: 28px;
+        font-size: 13px;
+    }
+
+    body > footer > h2:nth-child(3) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(4) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(2) {
+        left: 270px;
+        top: 29px;
+        font-size: 13px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 425px)and (max-width: 768px) {
+    header {
+        width: 425px;
+        height: 55px;
+    }
+    header>nav{
+        width: 425px;
+    }
+
+    section > section > h1:nth-child(1) {
+        font-size: 40px;
+        top: 25px;
+        left: 45px;
+    }
+
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+
+    body > footer {
+        height: 55px;
+        top: 448px;
+        width: 425px;
+    }
+    body > footer > h2:nth-child(1) {
+        left: 30px;
+        top: 22px;
+        font-size: 13px;
+    }
+
+    body > footer > h2:nth-child(3) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(4) {
+        display: none;
+    }
+
+    body > footer > h2:nth-child(2) {
+        left: 270px;
+        top: 22px;
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width: 768px)and (max-width: 1024px) {
+    header {
+        width: 768px;
+        height: 30px;
+    }
+    section > section > h1:nth-child(1) {
+        font-size: 26px;
+        top: 23px;
+        left: 25px;
+    }
+
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+
+    #mainImg {
+        width: 100px;
+        left: 236px;
+        top: 60px;
+        height: 161px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 25px;
+        font-size: 17px;
+        top: 98px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 25px;
+        font-size: 13px;
+        top: 158px;
+    }
+
+    body > footer {
+        height: 31px;
+        top: 243px;
+    }
+
+    body > footer > h2:nth-child(3) {
+        left: 27px;
+        top: 12px;
+        font-size: 8px;
+        margin: 0;
+        display: inherit;
+    }
+
+    body > footer > h2:nth-child(1) {
+        left: 142px;
+        top: 12px;
+        font-size: 8px;
+    }
+    body > footer > h2:nth-child(2) {
+        left: 291px;
+        top: 13px;
+        font-size: 8px;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+}
+
+@media all and (min-width: 1024px)and (max-width: 1440px){
+    header {
+        width: 1024px;
+        height: 29px;
+    }
+    section>section>h1:nth-child(1) {
+        font-size: 27px;
+        top: 9px;
+        left: 18px;
+    }
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+    #mainImg {
+        width: 96px;
+        left: 270px;
+        top: 48px;
+        height: 140px;
+    }
+    section > section > h1:nth-child(2) {
+        left: 34px;
+        font-size: 18px;
+        top: 67px;
+    }
+    section > section > h1:nth-child(3) {
+        left: 20px;
+        font-size: 13px;
+        top: 111px;
+    }
+
+    body > footer {
+        height: 28px;
+        top: 197px;
+    }
+
+    body > footer > h2 {
+    }
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+    body > footer > h2:nth-child(3) {
+        left: 23px;
+        top: 10px;
+        font-size: 7px;
+        margin: 0;
+        display: inherit;
+    }
+
+    body > footer > h2:nth-child(1) {
+        left: 196px;
+        top: 9px;
+        font-size: 8px;
+    }
+    body > footer > h2:nth-child(2) {
+        left: 336px;
+        top: 10px;
+        font-size: 7px;
+    }
+    body>footer>h2:nth-child(4) {
+        left: 120px;
+        top: 10px;
+        font-size: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+/*About Me*/
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media all and (max-width: 320px){
+    header{
+        height: 60px;
+    }
+
+    #girl {
+        display: none;
+    }
+    #me {
+        width: 207px;
+        left: 54px;
+        top: -16px;
+    }
+    #list {
+        left: 40px;
+        bottom: 40px;
+        font-size: 18px;
+    }
+
+    main>section:nth-child(2)>h1 {
+        left: 17px;
+        bottom: 489px;
+        font-size: 25px;
+    }
+    #whatsapp {
+        width: 35px;
+        left: 23px;
+        top: 175px;
+    }
+    #facebook {
+        position: relative;
+        width: 35px;
+        top: 175px;
+        left: 29px;
+    }
+    #linkedin {
+        width: 35px;
+        top: 175px;
+        left: 38px;
+    }
+    #twitter {
+        width: 35px;
+        left: 50px;
+        top: 175px;
+    }
+    #gmail {
+        width: 35px;
+        left: 60px;
+        top: 175px;
+    }
+    #github {
+        position: relative;
+        width: 35px;
+        left: 69px;
+        top: 175px;
+    }
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header {
+        height: 54px;
+    }
+
+    #girl{
+        display: none;
+    }
+
+    #me {
+        width: 233px;
+        left: 66px;
+        top: -12px;
+    }
+    #list {
+        left: 56px;
+        bottom: 57px;
+        font-size: 18px;
+    }
+
+    #whatsapp {
+        width: 40px;
+        left: 22px;
+        top: 144px;
+    }
+    #facebook {
+        width: 40px;
+        top: 144px;
+        left: 33px;
+    }
+
+    #linkedin {
+        width: 40px;
+        top: 144px;
+        left: 47px;
+    }
+
+    #twitter {
+        width: 40px;
+        left: 64px;
+        top: 144px;
+    }
+    #gmail {
+        width: 40px;
+        left: 77px;
+        top: 144px;
+    }
+
+    #github {
+        width: 40px;
+        left: 85px;
+        top: 144px;
+    }
+    main>section:nth-child(2)>h1 {
+        left: 19px;
+        bottom: 486px;
+        font-size: 26px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header {
+        width: 425px;
+        height: 55px;
+    }
+
+    #girl{
+        display: none;
+    }
+
+    #me {
+        width: 202px;
+        left: 82px;
+        top: -23px;
+    }
+    #list {
+        left: 69px;
+        bottom: 18px;
+        font-size: 15px;
+    }
+
+    #whatsapp {
+        position: absolute;
+        width: 37px;
+        left: 26px;
+        top: 326px;
+    }
+    #facebook {
+        position: absolute;
+        width: 37px;
+        top: 326px;
+        left: 77px;
+    }
+
+    #linkedin {
+        position: absolute;
+        width: 37px;
+        top: 326px;
+        left: 133px;
+    }
+
+    #twitter {
+        position: absolute;
+        width: 37px;
+        left: 190px;
+        top: 326px;
+    }
+    #gmail {
+        position: absolute;
+        width: 37px;
+        left: 244px;
+        top: 326px;
+    }
+
+    #github {
+        position: absolute;
+        width: 37px;
+        left: 297px;
+        top: 329px;
+    }
+
+    #navimg {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: 8px;
+        top: 5px;
+    }
+    main>section:nth-child(2)>h1 {
+        left: 19px;
+        bottom: 486px;
+        font-size: 26px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header {
+        width: 425px;
+        height: 29px;
+    }
+
+    main>section:nth-child(2)>h1 {
+        left: 13px;
+        bottom: 493px;
+        font-size: 15px;
+    }
+
+    #me {
+        width: 112px;
+        left: 15px;
+        top: -18px;
+    }
+
+    #list {
+        left: 122px;
+        bottom: 114px;
+        font-size: 9px;
+    }
+    #girl {
+        display: inherit;
+        width: 108px;
+        top: -16px;
+        left: 244px;
+    }
+    #whatsapp {
+        position: absolute;
+        width: 20px;
+        left: 26px;
+        top: 124px;
+    }
+
+    #facebook {
+        position: absolute;
+        width: 20px;
+        top: 124px;
+        left: 77px;
+    }
+    #linkedin {
+        position: absolute;
+        width: 20px;
+        top: 124px;
+        left: 133px;
+    }
+
+    #twitter {
+        position: absolute;
+        width: 20px;
+        left: 190px;
+        top: 124px;
+    }
+
+    #gmail {
+        position: absolute;
+        width: 20px;
+        left: 244px;
+        top: 124px;
+    }
+    #github {
+        position: absolute;
+        width: 20px;
+        left: 297px;
+        top: 124px;
+    }
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+}
+@media all and (min-width: 1024px)and (max-width: 1440px){
+    #me {
+        width: 96px;
+        left: 15px;
+        top: -34px;
+    }
+    #list {
+        left: 109px;
+        bottom: 122px;
+        font-size: 9px;
+    }
+    #girl {
+        width: 108px;
+        top: -37px;
+        left: 244px;
+    }
+    #whatsapp {
+        position: absolute;
+        width: 18px;
+        left: 11px;
+        top: 75px;
+    }
+    #facebook {
+        position: absolute;
+        width: 17px;
+        top: 75px;
+        left: 32px;
+    }
+    #linkedin {
+        position: absolute;
+        width: 17px;
+        top: 75px;
+        left: 53px;
+    }
+    #twitter {
+        position: absolute;
+        width: 18px;
+        left: 74px;
+        top: 75px;
+    }
+    #gmail {
+        position: absolute;
+        width: 18px;
+        left: 95px;
+        top: 75px;
+    }
+    #github {
+        position: absolute;
+        width: 18px;
+        left: 114px;
+        top: 75px;
+    }
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+}
+
+
+
+
+
+
+/*Education*/
+
+/*///////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media all and (max-width: 320px){
+    header{
+        height: 60px;
+        width: 320px;
+    }
+    main>section:nth-child(5)>h1 {
+        left: 15px;
+        bottom: 514px;
+        font-size: 27px;
+    }
+    main>section:nth-child(3)>img {
+        width: 78px;
+        height: 44px;
+        left: 15px;
+        top: 137px;
+    }
+    main>section:nth-child(2)>img {
+        width: 212px;
+        height: 259px;
+        left: 55px;
+        top: 255px;
+    }
+    main>section:nth-child(3)>h1 {
+        left: 14px;
+        top: 127px;
+        font-size: 15px;
+    }
+    main>section:nth-child(1)>img {
+        width: 64px;
+        height: 63px;
+        left: 126px;
+        top: 227px;
+    }
+    main>section:nth-child(4)>img {
+        width: 79px;
+        height: 72px;
+        left: 226px;
+        top: 488px;
+    }
+
+    main>section:nth-child(4)>h1 {
+        left: 32px;
+        top: 449px;
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        width: 375px;
+        height: 54px;
+    }
+    main>section:nth-child(5)>h1 {
+        left: 15px;
+        bottom: 512px;
+        font-size: 27px;
+    }
+
+    main>section:nth-child(3)>img {
+        width: 78px;
+        height: 47px;
+        left: 30px;
+        top: 137px;
+    }
+    main>section:nth-child(2)>img {
+        width: 215px;
+        height: 259px;
+        left: 86px;
+        top: 265px;
+    }
+    main>section:nth-child(3)>h1 {
+        left: 29px;
+        top: 142px;
+        font-size: 17px;
+    }
+    main>section:nth-child(1)>img {
+        width: 60px;
+        height: 59px;
+        left: 157px;
+        top: 241px;
+    }
+    main>section:nth-child(4)>img {
+        width: 79px;
+        height: 72px;
+        left: 264px;
+        top: 488px;
+    }
+
+    main>section:nth-child(4)>h1 {
+        left: 32px;
+        top: 460px;
+        font-size: 17px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        width: 425px;
+        height: 55px;
+    }
+    main>section:nth-child(5)>h1 {
+        left: 15px;
+        bottom: 519px;
+        font-size: 23px;
+    }
+
+    main>section:nth-child(3)>img {
+        width: 78px;
+        height: 47px;
+        left: 20px;
+        top: 116px;
+    }
+    main>section:nth-child(2)>img {
+        width: 211px;
+        height: 251px;
+        left: 83px;
+        top: 220px;
+    }
+    main>section:nth-child(3)>h1 {
+        left: 20px;
+        top: 115px;
+        font-size: 14px;
+    }
+    main>section:nth-child(1)>img {
+        width: 50px;
+        height: 50px;
+        left: 157px;
+        top: 208px;
+    }
+    main>section:nth-child(4)>img {
+        width: 74px;
+        height: 63px;
+        left: 275px;
+        top: 431px;
+    }
+
+    main>section:nth-child(4)>h1 {
+        left: 85px;
+        top: 399px;
+        font-size: 14px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    header{
+        width: 768px;
+        height: 30px;
+    }
+    main>section:nth-child(5)>h1 {
+        left: 10px;
+        bottom: 546px;
+        font-size: 15px;
+    }
+    main>section:nth-child(3)>img {
+        width: 51px;
+        height: 33px;
+        left: 11px;
+        top: 71px;
+    }
+    main>section:nth-child(2)>img {
+        width: 178px;
+        height: 202px;
+        left: 101px;
+        top: 69px;
+    }
+    main>section:nth-child(3)>h1 {
+        left: 11px;
+        top: 83px;
+        font-size: 9px;
+    }
+    main>section:nth-child(1)>img {
+        width: 33px;
+        height: 33px;
+        left: 169px;
+        top: 65px;
+    }
+    main>section:nth-child(4)>img {
+        width: 50px;
+        height: 40px;
+        left: 308px;
+        top: 230px;
+    }
+
+    main>section:nth-child(4)>h1 {
+        left: 188px;
+        top: 221px;
+        font-size: 9px;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    #navimg {
+        width: 23px;
+        height: 23px;
+        position: relative;
+        left: 5px;
+        top: 4px;
+    }
+
+    header {
+        width: 1024px;
+        height: 29px;
+    }
+
+    main > section:nth-child(5) > h1 {
+        left: 10px;
+        bottom: 546px;
+        font-size: 13px;
+    }
+
+    main > section:nth-child(3) > img {
+        width: 43px;
+        height: 26px;
+        left: 11px;
+        top: 74px;
+    }
+
+    main > section:nth-child(2) > img {
+        width: 168px;
+        height: 185px;
+        left: 109px;
+        top: 43px;
+    }
+
+    main > section:nth-child(3) > h1 {
+        left: 11px;
+        top: 79px;
+        font-size: 8px;
+    }
+
+    main > section:nth-child(1) > img {
+        width: 28px;
+        height: 28px;
+        left: 173px;
+        top: 44px;
+    }
+
+    main > section:nth-child(4) > img {
+        width: 45px;
+        height: 35px;
+        left: 312px;
+        top: 169px;
+    }
+
+    main > section:nth-child(4) > h1 {
+        left: 257px;
+        top: 117px;
+        font-size: 8px;
+    }
+
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*Skill*/
+
+@media all and (max-width: 320px){
+    header{
+        height: 60px;
+        width: 325px;
+    }
+    main>section:nth-child(2) {
+        width: 450px;
+        height: 450px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: -143px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(2)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(3) {
+        width: 450px;
+        height: 450px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 15px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(3)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(1)>h1 {
+        left: 24px;
+        font-size: 27px;
+        top: 55px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        height: 54px;
+        width: 375px;
+    }
+    main>section:nth-child(2) {
+        width: 450px;
+        height: 450px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: -125px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(2)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(3) {
+        width: 450px;
+        height: 450px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 47px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(3)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(1)>h1 {
+        left: 24px;
+        font-size: 27px;
+        top: 55px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        height: 55px;
+        width: 425px;
+    }
+    main>section:nth-child(2) {
+        width: 450px;
+        height: 391px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: -125px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(2)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(3) {
+        width: 450px;
+        height: 391px;
+        top: 118px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 43px;
+        /* display: contents; */
+        flex-direction: column;
+    }
+
+    main>section:nth-child(3)>div {
+        width: 100px;
+        height: 118px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(1)>h1 {
+        left: 24px;
+        font-size: 27px;
+        top: 55px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header {
+        height: 30px;
+        width: 768px;
+    }
+    main>section:nth-child(2) {
+        width: 336px;
+        height: 100px;
+        top: 67px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 16px;
+        /* display: contents; */
+        flex-direction: row;
+    }
+    main>section:nth-child(2)>div {
+        width: 100px;
+        height: 65px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(3) {
+        width: 336px;
+        height: 100px;
+        top: 167px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 16px;
+        /* display: contents; */
+        flex-direction: row;
+    }
+
+    main>section:nth-child(3)>div {
+        width: 100px;
+        height: 65px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(1)>h1 {
+        left: 15px;
+        font-size: 16px;
+        top: 29px;
+    }
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    header {
+        height: 29px;
+        width: 1024px;
+    }
+    main>section:nth-child(2) {
+        width: 336px;
+        height: 100px;
+        top: 48px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 16px;
+        /* display: contents; */
+        flex-direction: row;
+    }
+    main>section:nth-child(2)>div {
+        width: 100px;
+        height: 65px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(3) {
+        width: 336px;
+        height: 100px;
+        top: 122px;
+        /* position: absolute; */
+        /* display: contents; */
+        align-items: center;
+        /* align-items: center; */
+        /* align-items: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        left: 16px;
+        /* display: contents; */
+        flex-direction: row;
+    }
+
+    main>section:nth-child(3)>div {
+        width: 100px;
+        height: 65px;
+        border-radius: 10%;
+        margin: 9px;
+    }
+
+    main>section:nth-child(1)>h1 {
+        left: 15px;
+        font-size: 16px;
+        top: 29px;
+    }
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Projects*/
+
+@media all and (max-width: 320px){
+    header{
+        width: 320px;
+        height: 60px;
+    }
+    body>main>section:nth-child(2) {
+        height: 457px;
+        top: -72px;
+        flex-direction: column;
+        width: 225px;
+        margin: 0;
+        left: 45px;
+    }
+    main>section>div {
+        position: relative;
+        height: 103px;
+        width: 151px;
+        border-radius: 10%;
+        margin: 6px;
+    }
+
+    main>section:nth-child(3)>h2 {
+        left: 103px;
+        top: -78px;
+        font-size: 21px;
+    }
+
+    main>section>div:nth-child(1)>a {
+        top: 71px;
+        left: 7px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(2)>a {
+        top: 72px;
+        left: 13px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(3)>a {
+        top: 76px;
+        font-size: 14px;
+        left: 26px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        width: 375px;
+        height: 54px;
+    }
+    body>main>section:nth-child(2) {
+        height: 457px;
+        top: -70px;
+        flex-direction: column;
+        width: 225px;
+        margin: 0;
+        left: 70px;
+    }
+    main>section>div {
+        position: relative;
+        height: 110px;
+        width: 173px;
+        margin: 6px;
+    }
+
+    main>section:nth-child(3)>h2 {
+        left: 134px;
+        top: -74px;
+        font-size: 21px;
+    }
+
+    main>section>div:nth-child(1)>a {
+        top: 71px;
+        left: 7px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(2)>a {
+        top: 72px;
+        left: 13px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(3)>a {
+        top: 76px;
+        font-size: 14px;
+        left: 26px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        width: 425px;
+        height: 55px;
+    }
+    body>main>section:nth-child(2) {
+        height: 457px;
+        top: -102px;
+        flex-direction: column;
+        width: 225px;
+        margin: 0;
+        left: 70px;
+    }
+    main>section>div {
+        position: relative;
+        height: 107px;
+        width: 178px;
+        margin: -33px;
+    }
+    main>section:nth-child(3)>h2 {
+        left: 134px;
+        top: -140px;
+        font-size: 21px;
+    }
+
+    main>section>div:nth-child(1)>a {
+        top: 71px;
+        left: 13px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(2)>a {
+        top: 72px;
+        left: 13px;
+        font-size: 13px;
+    }
+    main>section>div:nth-child(3)>a {
+        top: 76px;
+        font-size: 13px;
+        left:39px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header{
+        width: 768px;
+        height: 30px;
+    }
+
+    body>main>section:nth-child(2) {
+        height: 330px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: -57px;
+    }
+    main>section>div {
+        position: relative;
+        height: 81px;
+        width: 113px;
+        margin: 3px;
+    }
+    main>section>div:nth-child(1)>a {
+        top: 96px;
+        left: 4px;
+        font-size: 8px;
+    }
+    main>section>div:nth-child(2)>a {
+        top: 96px;
+        left: 13px;
+        font-size: 8px;
+
+    }
+    main>section>div:nth-child(3)>a {
+        top: 96px;
+        font-size: 8px;
+        left: 22px;
+    }
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
+
+
+
+/*Assignments*/
+
+
+@media all and (max-width: 320px){
+    header{
+        width: 320px;
+        height: 60px;
+    }
+    body>main>section:nth-child(2) {
+        top: 119px;
+        flex-direction: column;
+        left: -71px;
+        height: 450px;
+    }
+    body>main>section:nth-child(3) {
+        top: 119px;
+        flex-direction: column;
+        left: 71px;
+        height: 450px;
+    }
+    main>section:nth-child(2)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(3)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(2)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        width: 375px;
+        height: 54px;
+    }
+    body>main>section:nth-child(2) {
+        top: 119px;
+        flex-direction: column;
+        left: -76px;
+        height: 450px;
+    }
+    body>main>section:nth-child(3) {
+        top: 119px;
+        flex-direction: column;
+        left: 71px;
+        height: 450px;
+    }
+    main>section:nth-child(2)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(3)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(2)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        width: 425px;
+        height: 55px;
+    }
+    body>main>section:nth-child(2) {
+        top: 84px;
+        flex-direction: column;
+        left: -105px;
+        height: 422px;
+    }
+    body>main>section:nth-child(3) {
+        top: 84px;
+        flex-direction: column;
+        left: 48px;
+        height: 422px;
+    }
+    main>section:nth-child(2)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(3)>div {
+        height: 50px;
+        width: 50px;
+    }
+    main>section:nth-child(2)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(2)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(1)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(2)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(3)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(4)>a {
+        font-size: 8px;
+    }
+    main>section:nth-child(3)>div:nth-child(5)>a {
+        font-size: 8px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header{
+        width: 768px;
+        height: 30px;
+    }
+    body>main>section:nth-child(2) {
+        top: 73px;
+        flex-direction: row;
+        left: 11px;
+        height: 100px;
+        width: 348px;
+    }
+    main>section:nth-child(2)>div {
+        height: 32px;
+        width: 33px;
+    }
+
+    body>main>section:nth-child(3) {
+        top: 170px;
+        flex-direction: row;
+        left: 10px;
+        height: 100px;
+        width: 348px;
+    }
+    main>section:nth-child(3)>div {
+        height: 32px;
+        width: 33px;
+    }
+    main>section:nth-child(2)>div:nth-child(1)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(2)>div:nth-child(2)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(2)>div:nth-child(3)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(2)>div:nth-child(4)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(2)>div:nth-child(5)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(3)>div:nth-child(1)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(3)>div:nth-child(2)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(3)>div:nth-child(3)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(3)>div:nth-child(4)>a {
+        font-size: 5px;
+    }
+    main>section:nth-child(3)>div:nth-child(5)>a {
+        font-size: 5px;
+    }
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+}
+
+@media all  and (min-width: 1024px) and (max-width: 1440px){
+
+    header{
+        width: 1024px;
+        height: 29px;
+    }
+    body>main>section:nth-child(2) {
+        top: 48px;
+        flex-direction: row;
+        left: 11px;
+        height: 100px;
+        width: 348px;
+    }
+    body>main>section:nth-child(3) {
+        top: 123px;
+        flex-direction: row;
+        left: 10px;
+        height: 100px;
+        width: 348px;
+    }
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+
+/*Activities*/
+
+@media all and (max-width: 320px){
+    header{
+        width: 320px;
+        height: 60px;
+    }
+
+    body>main>section:nth-child(1) {
+        height: 148px;
+        top: 220px;
+        flex-direction: column;
+        left: -49px;
+    }
+
+    main>section:nth-child(1)>img {
+        position: relative;
+        height: 108px;
+        width: 186px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(1) {
+        left: 236px;
+        top: 20px;
+        font-size: 21px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(2) {
+        left: 180px;
+        top: 139px;
+        font-size: 21px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(3) {
+        left: 214px;
+        top: 256px;
+        font-size: 21px;
+    }
+
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        width: 375px;
+        height: 54px;
+    }
+
+    body>main>section:nth-child(1) {
+        height: 148px;
+        top: 191px;
+        flex-direction: column;
+        left: -60px;
+    }
+    main>section:nth-child(1)>img {
+        position: relative;
+        height: 108px;
+        width: 186px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(1) {
+        left: 270px;
+        top: -22px;
+        font-size: 21px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(2) {
+        left: 215px;
+        top: 105px;
+        font-size: 21px;
+    }
+    main>section:nth-child(2)>h1:nth-child(3) {
+        left: 250px;
+        top: 231px;
+        font-size: 21px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        width: 425px;
+        height: 55px;
+    }
+
+    body>main>section:nth-child(1) {
+        height: 148px;
+        top: 182px;
+        flex-direction: column;
+        left: -92px;
+    }
+    main>section:nth-child(1)>img {
+        position: relative;
+        height: 108px;
+        width: 186px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(1) {
+        left: 270px;
+        top: -11px;
+        font-size: 21px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(2) {
+        left: 213px;
+        top: 115px;
+        font-size: 21px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(3) {
+        left: 246px;
+        top: 243px;
+        font-size: 21px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    header{
+        width: 768px;
+        height: 30px;
+    }
+
+    body>main>section:nth-child(1) {
+        height: 300px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        top: -28px;
+        flex-direction: row;
+        width: 231px;
+        left: 74px;
+    }
+    main>section:nth-child(1)>img {
+        position: relative;
+        height: 119px;
+        width: 200px;
+    }
+    main>section:nth-child(2)>h1:nth-child(1) {
+        left: 40px;
+        top: -87px;
+        font-size: 14px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(2) {
+        left: 134px;
+        top: -87px;
+        font-size: 14px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(3) {
+        left: 268px;
+        top: -87px;
+        font-size: 14px;
+    }
+    #navimg {
+        display: inherit;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        margin: 0;
+    }
+    #home {
+        left: 33px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #aboutme {
+        left: 64px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #education {
+        left: 107px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #skill {
+        left: 155px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #projects {
+        left: 184px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #assignment {
+        left: 224px;
+        top: 10px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 286px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #contact {
+        left: 326px;
+        top: 10px;
+        font-size: 9px;
+    }
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    body>main>section:nth-child(1) {
+        height: 300px;
+        top: -60px;
+        flex-direction: row;
+        width: 231px;
+        left: 74px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(1) {
+        left: 59px;
+        top: -137px;
+        font-size: 10px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(2) {
+        left: 146px;
+        top: -137px;
+        font-size: 10px;
+    }
+
+    main>section:nth-child(2)>h1:nth-child(3) {
+        left: 259px;
+        top: -137px;
+        font-size: 10px;
+    }
+    #navimg {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        left: 5px;
+        top: 3px;
+    }
+    #home {
+        left: 35px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 71px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #education {
+        left: 121px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 171px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 200px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 242px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 305px;
+        top: 9px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 351px;
+        top: 9px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+/*Contact*/
+@media all and (min-width: 375px) and (max-width: 425px){
+    header{
+        width: 375px;
+        height: 54px;
+    }
+
+    main>section:nth-child(3) {
+        height: 235px;
+        width: 235px;
+        top: 104px;
+        left: 63px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(1) {
+        left: 9px;
+        top: 12px;
+        width: 210px;
+        height: 30px;
+    }
+
+    main>section:nth-child(3)>form>input:nth-child(2) {
+        left: 9px;
+        top: 59px;
+        width: 210px;
+        height: 46px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(3) {
+        left: 9px;
+        top: 123px;
+        width: 210px;
+        height: 96px;
+    }
+    main>section:nth-child(3)>form>button {
+        left: 75px;
+        top: 238px;
+        width: 89px;
+        height: 25px;
+        font-size: 17px;
+    }
+    #whatsapp {
+        width: 25px;
+        left: 40px;
+        top: 372px;
+    }
+    #facebook {
+        width: 25px;
+        left: 40px;
+        top: 405px;
+    }
+    #linkedin {
+        width: 25px;
+        left: 40px;
+        top: 440px;
+    }
+    #twitter {
+        width: 25px;
+        left: 40px;
+        top: 472px;
+    }
+    #gmail {
+        width: 25px;
+        left: 40px;
+        top: 501px;
+    }
+    #github {
+        width: 25px;
+        left: 40px;
+        top: 527px;
+    }
+    #placehold {
+        width: 25px;
+        left: 40px;
+        top: 555px;
+    }
+    main>section:nth-child(1)>h1:nth-child(1) {
+        left: 90px;
+        top: 317px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(2) {
+        left: 90px;
+        top: 348px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(3) {
+        left: 90px;
+        top: 382px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(4) {
+        left: 90px;
+        top: 415px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(5) {
+        left: 90px;
+        top: 445px;
+        font-size: 16px;
+    }
+    main>section:nth-child(1)>h1:nth-child(6) {
+        left: 90px;
+        top: 472px;
+        font-size: 20px;
+    }
+
+    main>section:nth-child(1)>h1:nth-child(7) {
+        left: 90px;
+        top: 500px;
+        font-size: 20px;
+    }
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 6px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 42px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 91px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 176px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 222px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 285px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 331px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 320px){
+    header{
+        width: 320px;
+        height: 60px;
+    }
+
+    main>section:nth-child(3) {
+        height: 235px;
+        width: 235px;
+        top: 104px;
+        left: 40px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(1) {
+        left: 9px;
+        top: 12px;
+        width: 210px;
+        height: 30px;
+    }
+
+    main>section:nth-child(3)>form>input:nth-child(2) {
+        left: 9px;
+        top: 59px;
+        width: 210px;
+        height: 46px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(3) {
+        left: 9px;
+        top: 123px;
+        width: 210px;
+        height: 96px;
+    }
+    main>section:nth-child(3)>form>button {
+        left: 75px;
+        top: 238px;
+        width: 89px;
+        height: 25px;
+        font-size: 17px;
+    }
+    #whatsapp {
+        width: 25px;
+        left: 24px;
+        top: 372px;
+    }
+    #facebook {
+        width: 25px;
+        left: 24px;
+        top: 405px;
+    }
+    #linkedin {
+        width: 25px;
+        left: 24px;
+        top: 440px;
+    }
+    #twitter {
+        width: 25px;
+        left: 24px;
+        top: 472px;
+    }
+    #gmail {
+        width: 25px;
+        left: 24px;
+        top: 501px;
+    }
+    #github {
+        width: 25px;
+        left: 24px;
+        top: 527px;
+    }
+    #placehold {
+        width: 25px;
+        left: 24px;
+        top: 555px;
+    }
+    main>section:nth-child(1)>h1:nth-child(1) {
+        left: 81px;
+        top: 313px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(2) {
+        left: 81px;
+        top: 348px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(3) {
+        left: 81px;
+        top: 382px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(4) {
+        left: 81px;
+        top: 415px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(5) {
+        left: 81px;
+        top: 445px;
+        font-size: 16px;
+    }
+    main>section:nth-child(1)>h1:nth-child(6) {
+        left: 81px;
+        top: 472px;
+        font-size: 20px;
+    }
+
+    main>section:nth-child(1)>h1:nth-child(7) {
+        left: 81px;
+        top: 500px;
+        font-size: 20px;
+    }
+
+
+}
+
+@media all and (min-width: 425px) and (max-width: 768px){
+    header{
+        width: 425px;
+        height: 55px;
+    }
+
+    main>section:nth-child(3) {
+        height: 201px;
+        width: 235px;
+        top: 104px;
+        left: 63px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(1) {
+        left: 9px;
+        top: 12px;
+        width: 210px;
+        height: 21px;
+    }
+
+    main>section:nth-child(3)>form>input:nth-child(2) {
+        left: 9px;
+        top: 48px;
+        width: 210px;
+        height: 35px;
+    }
+    main>section:nth-child(3)>form>input:nth-child(3) {
+        left: 9px;
+        top: 98px;
+        width: 210px;
+        height: 96px;
+    }
+    main>section:nth-child(3)>form>button {
+        left: 75px;
+        top: 204px;
+        width: 89px;
+        height: 25px;
+        font-size: 17px;
+    }
+    #whatsapp {
+        width: 25px;
+        left: 40px;
+        top: 333px;
+    }
+    #facebook {
+        width: 25px;
+        left: 40px;
+        top: 359px;
+    }
+    #linkedin {
+        width: 25px;
+        left: 40px;
+        top: 387px;
+    }
+    #twitter {
+        width: 25px;
+        left: 40px;
+        top: 412px;
+    }
+    #gmail {
+        width: 25px;
+        left: 40px;
+        top: 435px;
+    }
+    #github {
+        width: 25px;
+        left: 40px;
+        top: 457px;
+    }
+    #placehold {
+        width: 25px;
+        left: 40px;
+        top: 555px;
+    }
+    main>section:nth-child(1)>h1:nth-child(1) {
+        left: 90px;
+        top: 317px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(2) {
+        left: 90px;
+        top: 348px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(3) {
+        left: 90px;
+        top: 382px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(4) {
+        left: 90px;
+        top: 415px;
+        font-size: 20px;
+    }
+    main>section:nth-child(1)>h1:nth-child(5) {
+        left: 90px;
+        top: 445px;
+        font-size: 16px;
+    }
+    main>section:nth-child(1)>h1:nth-child(6) {
+        left: 90px;
+        top: 472px;
+        font-size: 20px;
+    }
+
+    main>section:nth-child(1)>h1:nth-child(7) {
+        left: 90px;
+        top: 500px;
+        font-size: 20px;
+    }
+    #navimg {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+    }
+
+    #mainImg {
+        width: 151px;
+        height: 208px;
+        left: 163px;
+        font-size: 23px;
+        top: 83px;
+    }
+
+    section > section > h1:nth-child(2) {
+        left: 44px;
+        font-size: 23px;
+        top: 252px;
+    }
+
+    section > section > h1:nth-child(3) {
+        left: 30px;
+        font-size: 20px;
+        top: 313px;
+    }
+
+    #navimg{
+        display: none;
+    }
+    #home {
+        left: 7px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #aboutme {
+        left: 43px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #education {
+        left: 93px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #skill {
+        left: 143px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #projects {
+        left: 173px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #assignment {
+        left: 216px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #activities {
+        left: 276px;
+        top: 22px;
+        font-size: 10px;
+    }
+    #contact {
+        left: 322px;
+        top: 22px;
+        font-size: 10px;
+    }
+}
