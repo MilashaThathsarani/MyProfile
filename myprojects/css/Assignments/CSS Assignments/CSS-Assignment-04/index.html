@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-Assignment-04</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        section{
+            height: 700px;
+            border: 2px solid black;
+            scroll-snap-type: y;
+            transition: 1s;
+        }
+
+        section:nth-child(01){
+            background-color: white;
+        }
+
+        section > h1:nth-child(01){
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            background-color: red;
+            color: white;
+        }
+
+        section:nth-child(01) > p {
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 650px;
+            top: 200px;
+            font-weight: bold;
+        }
+
+        section:nth-child(02) {
+            background-color: deepskyblue;
+        }
+
+        section:nth-child(02) > h1 {
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            background-color: darkblue;
+            color: white;
+        }
+
+        section:nth-child(02) > p {
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 650px;
+            top: 900px;
+            font-weight: bold;
+        }
+
+        section:nth-child(03) {
+            background-color: gray;
+        }
+
+        section:nth-child(03) > h1 {
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            color: white;
+            background-color: black;
+        }
+
+        section:nth-child(03) > p {
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 650px;
+            top: 1600px;
+            font-weight: bold;
+        }
+
+        section:nth-child(04) {
+            background-color: red;
+        }
+
+        section:nth-child(04) > h1 {
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            color: white;
+            background-color: darkred;
+        }
+
+        section:nth-child(4) > p {
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 650px;
+            top: 2300px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+<section>
+    <h1>Card 1</h1>
+    <p>Hello</p>
+</section>
+
+<section>
+    <h1>Card 2</h1>
+    <p>How</p>
+</section>
+
+<section>
+    <h1>Card 3</h1>
+    <p>Are</p>
+</section>
+
+<section>
+    <h1>Card 4</h1>
+    <p>You...?</p>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS - Transition Assignment 02</title>
+    <link href="assets/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
+
+    <style>
+        section{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        section>h2{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: max-content;
+            height: max-content;
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+        section:hover h2{
+            /*transform: rotate(-360deg);*/
+            transition: all 1s;
+        }
+
+        /*section::before{
+         content: "A";
+        }*/
+
+        section::after{
+          content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background-color: cadetblue;
+            border: 20px solid gray;
+            border-top: 20px solid red;
+            border-radius: 100%;
+        }
+
+        section:hover::after{
+            transform: rotate(360deg);
+            transition: all 2s;
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <div></div>
+    <h2>RWAD</h2>
+</section>
+
+</body>
+</html>
