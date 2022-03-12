@@ -36,21 +36,25 @@
         position: relative;
     }
 
-    header{
+    header {
         width: 100vw;
         top: 0;
         left: 0;
         position: fixed;
-        z-index: 1;
-        background-color: white;
+        z-index: 2;
+        height: 60px;
+
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,49,49,1) 0%, rgba(57,54,64,1) 25%, rgba(59,56,70,1) 49%,
+        rgba(61,58,76,1) 62%, rgba(87,80,139,1) 99%, rgba(203,203,203,1) 100%, rgba(203,203,203,1) 100%);
     }
     #home{
         position: absolute;
         left: 470px;
         text-decoration: none;
-        color: black;
-        top: 25px;
-        font-size: 25px;
+        color: white;
+        top: 16px;
+        font-size: 23px;
         font-family:Calibri;
         transition: 0.5s;
     }
@@ -66,8 +70,8 @@
         position: absolute;
         left: 580px;
         text-decoration: none;
-        color: black;
-        top: 25px;
+        color: white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -84,8 +88,8 @@
         position: absolute;
         left: 720px;
         text-decoration: none;
-        color: black;
-        top: 25px;
+        color: white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -101,8 +105,8 @@
         position: absolute;
         left: 870px;
         text-decoration: none;
-        color: black;
-        top: 25px;
+        color: white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -119,8 +123,8 @@
         position: absolute;
         left: 970px;
         text-decoration: none;
-        color: black;
-        top: 25px;
+        color: white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -137,8 +141,8 @@
         position: absolute;
         left: 1100px;
         text-decoration: none;
-        color:black;
-        top: 25px;
+        color:white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -154,8 +158,8 @@
         position: absolute;
         left: 1275px;
         text-decoration: none;
-        color:black;
-        top: 25px;
+        color:white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -171,8 +175,8 @@
         position: absolute;
         left: 1400px;
         text-decoration: none;
-        color: black;
-        top: 25px;
+        color: white;
+        top: 16px;
         font-size: 25px;
         font-family:Calibri;
         transition: 0.5s;
@@ -184,7 +188,7 @@
         color: #181818;
         font-size: 27px;
     }
-    body>section>section>h1:nth-child(1){
+    body>section:nth-child(1)>section>h1:nth-child(1){
         position: absolute;
         left: 90px;
         font-size: 70px;
@@ -201,7 +205,7 @@
         margin-bottom: 0px;
         height: 0;
     }
-    body>section>section>h1:nth-child(2){
+    body>section:nth-child(1)>section>h1:nth-child(2){
         font-size: 150px;
         left: 90px;
         top: 230px;
@@ -223,7 +227,7 @@
 
     }
 
-    body>section>section>h1:nth-child(3){
+    body>section:nth-child(1)>section>h1:nth-child(3){
         position: absolute;
         left: 90px;
         font-size: 20px;
@@ -236,7 +240,7 @@
 
     }
 
-    body>section>section>p{
+    body>section:nth-child(1)>section>p{
         position: absolute;
         left: 90px;
         top: 300px;
@@ -425,7 +429,7 @@
 
     body>section:nth-child(3)>section:nth-child(3)>img{
         width: 150px;
-        height: 75px;
+        height: 105px;
         border-radius: 5%;
         position: absolute;
         left: 35px;
@@ -440,7 +444,7 @@
         width: 600px;
         height: 0;
         font-size: 25px;
-        color: black;
+        color: #182C61;
     }
 
     body>section:nth-child(3)>section:nth-child(4)>h1{
@@ -451,7 +455,7 @@
         width: 600px;
         height: 0;
         font-size: 25px;
-        color: black;
+        color: #182C61;
     }
 
     body>section:nth-child(3)>section:nth-child(4)>img{
@@ -1075,7 +1079,7 @@
         /*align-items: end;*/
         /*justify-content: space-around;*/
         justify-content:space-evenly ;
-        top: 250px;
+        top: 210px;
 
     }
 
@@ -1091,8 +1095,8 @@
 
     body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(1){
         position: relative;
-        left: 270px;
-        top: 200px;
+        left: 190px;
+        top: 290px;
         color: black;
         margin: 0;
         padding: 0;
@@ -1104,15 +1108,35 @@
 
     body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(2){
         position: relative;
-        left: 670px;
-        top: 200px;
+        left: 632px;
+        top: 287px;
         color: black;
         margin: 0;
         padding: 0;
-        width: 200px;
+        width: 250px;
         height: 0;
         font-size: 30px;
 
+    }
+
+    body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(3) {
+        position: relative;
+        left: 1120px;
+        top: 285px;
+        margin: 0;
+        padding: 0;
+        color: black;
+        width: 200px;
+        height: 0;
+        font-size: 30px;
+    }
+    body>section:nth-child(7)>section:nth-child(3)>h1{
+        position: absolute;
+        color: black;
+        left: 60px;
+        font-size: 30px;
+        font-family: Candara;
+        top: 4430px;
     }
     @keyframes rotate {
         2% {
@@ -1134,26 +1158,6 @@
 
         }
     }
-    body>section:nth-child(7)>section:nth-child(2)>h1:nth-child(3) {
-        position: relative;
-        left: 1120px;
-        top: 200px;
-        margin: 0;
-        padding: 0;
-        color: black;
-        width: 200px;
-        height: 0;
-        font-size: 30px;
-    }
-    body>section:nth-child(7)>section:nth-child(3)>h1{
-        position: relative;
-        color: black;
-        left: 50px;
-        top: 2000px;
-        font-size: 30px;
-        font-family: Candara;
-        top: 75px;
-    }
 
     /*---------------------------------------------------------------------------------------------*/
 
@@ -1166,45 +1170,45 @@
         position:absolute;
         width: 50px;
         left: 75px;
-        top: 5200px;
+        top: 5240px;
     }
     #facebookc{
         position: absolute;
         width: 50px;
         left: 75px;
-        top:5250px;
+        top:5310px;
 
     }
     #linkedinc{
         position: absolute;
         width: 50px;
         left: 75px;
-        top: 5300px;
+        top: 5380px;
     }
     #twitterc{
         position: absolute;
         width: 50px;
         left: 75px;
-        top: 5400px;
+        top: 5450px;
     }
     #gmailc{
         position: absolute;
         width: 50px;
         left: 75px;
-        top: 5450px;
+        top: 5520px;
     }
     #githubc {
         position: absolute;
         width: 50px;
         left: 75px;
-        top: 5500px;
+        top: 5590px;
     }
 
     #placehold{
         position: absolute;
         width: 50px;
         left: 75px;
-        top: 5550px;
+        top: 5660px;
     }
 
 
@@ -1216,34 +1220,37 @@
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
         position: relative;
         left: 180px;
-        top: 120px;
+        top: 195px;
         font-family: "Bell MT";
         width: 500px;
         height: 0;
         margin: 0;
+        font-size: 33px;
     }
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
         position: relative;
         left: 180px;
-        top: 200px;
+        top: 205px;
         font-family: "Bell MT";
         width: 500px;
         height: 0;
         margin: 0;
+        font-size: 30px;
     }
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
         position: relative;
         left: 180px;
-        top: 277px;
+        top: 335px;
         font-family: "Bell MT";
         width: 500px;
         height: 0;
         margin: 0;
+        font-size: 30px;
     }
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
         position: relative;
         left: 180px;
-        top: 357px;
+        top: 405px;
         font-family:"Bell MT";
         width: 500px;
         height: 0;
@@ -1252,7 +1259,7 @@
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
         position: relative;
         left: 180px;
-        top: 428px;
+        top: 470px;
         font-family: "Bell MT";
         width: 500px;
         height: 0;
@@ -1261,7 +1268,7 @@
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
         position: relative;
         left: 180px;
-        top: 502px;
+        top: 545px;
         font-family: "Bell MT";
         width: 500px;
         height: 0;
@@ -1270,7 +1277,7 @@
     body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
         position: relative;
         left: 180px;
-        top: 571px;
+        top: 615px;
         font-family:"Bell MT";
         width: 500px;
         height: 0;
