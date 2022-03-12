@@ -9,4 +9,4 @@
 ##### github - https://github.com/MilashaThathsarani/MyProfile
 
 ###### Screenshot...
-![image of girl](assets/images/Screenshot%20(293).png)
+![image of girl](assets/images/Screenshot%20(316).png)
