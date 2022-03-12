@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight Rider</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body>h1{
+        position: absolute;
+        top: 60px;
+        color: #9e6a6a;
+        font-size: 25px;
+    }
+    #line1{
+        width: 900px;
+        height: 0px;
+        top: 200px;
+        position: absolute;
+        border:2px solid white;
+    }
+    #line2{
+        width: 900px;
+        height: 0px;
+        top: 400px;
+        position: absolute;
+        border:2px solid white;
+    }
+
+    #box1{
+        position: absolute;
+        background: #ffffff;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 450px;
+    }
+    #box2{
+        position: absolute;
+        background: #ffffff;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 560px;
+    }
+    #box3{
+        position: absolute;
+        background: #ffffff;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 670px;
+    }
+    #box4{
+        position: absolute;
+        background: #ffffff;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 780px;
+    }
+    #start,#stop{
+        position: relative;
+        border: 2px solid white;
+        background: black;
+        color: white;
+        font-size: 25px;
+        padding: 10px 20px;
+        margin: 10px;
+        top: 400px;
+
+
+    }
+
+</style>
+<body>
+<h1>JavaScript Knight Rider</h1>
+<div id="line1"></div>
+<div id="line2"></div>
+
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+<div id="box4"></div>
+
+
+<button id="start" type="button" class="btn btn-primary">start</button>
+<button id="stop" type="button" class="btn btn-primary">stop</button>
+
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+    var colors = ['red', 'rgba(219, 55, 55, 0.68)', 'rgba(222, 98, 98, 0.68)', 'white'];
+    let count = 0;
+    let revIndex = 0;
+    let timeId;
+
+    $("#start").click(function () {
+        clearInterval(timeId);
+        timeId = setInterval(changeColor, 200);
+    });
+
+    $("#stop").click(function () {
+        clearInterval(timeId);
+    });
+
+    function changeColor() {
+        if (count == 16) {
+            count = 0;
+            revIndex=0;
+        }
+        $("#box1").css('background-color', colors[count]);
+        $("#box2").css('background-color', colors[count - 1]);
+        $("#box3").css('background-color', colors[count - 2]);
+        $("#box4").css('background-color', colors[count - 3]);
+
+        if (count >= 8) {
+            $("#box1").css('background-color', colors[revIndex - 3]);
+            $("#box2").css('background-color', colors[revIndex - 2]);
+            $("#box3").css('background-color', colors[revIndex - 1]);
+            $("#box4").css('background-color', colors[revIndex]);
+            revIndex++;
+        }
+        count++;
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Que-Assignment</title>
+</head>
+<style>
+    body{
+        background-color: cadetblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body h1{
+        position: relative;
+        color: white;
+        font-size: 20px;
+    }
+    #line1{
+        width: 900px;
+        height: 0px;
+        top: 200px;
+        position: absolute;
+        border:2px solid white;
+    }
+    #line2{
+        width: 900px;
+        height: 0px;
+        top: 400px;
+        position: absolute;
+        border:2px solid white;
+    }
+    #box1{
+        position: absolute;
+        background: #f60707;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 130px;
+        left: 250px;
+    }
+    #box2{
+        position: absolute;
+        background: #0f6f02;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 390px;
+    }
+    #box3{
+        position: absolute;
+        background: #041e9a;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 550px;
+    }
+    #box4{
+        position: absolute;
+        background: #ece700;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 700px;
+    }
+    #box5{
+        position: absolute;
+        background: #ec9c9c;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 275px;
+        left: 850px;
+    }
+    #box6{
+        position: absolute;
+        background: #9105c6;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        top: 430px;
+        left: 950px;
+    }
+</style>
+<body>
+
+<h1>Java Script Queue</h1>
+<div id="line1"></div>
+<div id="line2"></div>
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box3"></div>
+<div id="box4"></div>
+<div id="box5"></div>
+<div id="box6"></div>
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+
+
+    let queueColor=["#f60707","#0f6f02","#041e9a","#ece700","#ec9c9c","#9105c6"];
+    let index=0;
+    function color() {
+
+        if(index==12){
+            index=0;
+        }
+        $("#box1").css('background-color',queueColor[index]);
+        $("#box2").css('background-color',queueColor[index-1]);
+        $("#box3").css('background-color',queueColor[index-2]);
+        $("#box4").css('background-color',queueColor[index-3]);
+        $("#box5").css('background-color',queueColor[index-4]);
+        $("#box6").css('background-color',queueColor[index-5]);
+        index++;
+
+
+
+    }
+    setInterval(color,200);
+</script>
+</body>
+</html>
