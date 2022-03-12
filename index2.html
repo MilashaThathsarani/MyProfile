@@ -42,6 +42,7 @@
         left: 0;
         position: fixed;
         z-index: 1;
+        background-color: white;
     }
     #home{
         position: absolute;
@@ -277,9 +278,10 @@
 
     #girl {
         position: absolute;
-        width: 400px;
+        width: 500px;
         right: 70px;
-        top: 900px;
+        top: 830px;
+        height: 530px;
         animation-name: girl;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -289,7 +291,7 @@
     #list{
         position: relative;
         left: 580px;
-        bottom: 215px;
+        bottom: 195px;
         font-size: 35px;
         color: whitesmoke;
         margin: 0;
@@ -529,7 +531,15 @@
         background: url("assets/images/java1.png");
         background-size: cover;
         background-position: center;
+        transition: 0.8s;
     }
+
+    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1):hover{
+        transition-property: all;
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
     body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
         background: url("assets/images/mysql.png");
         background-size: cover;
@@ -675,7 +685,7 @@
         top: 75px;
     }
 
-    body>section:nth-child(5)>section:nth-child(3)>h2{
+    body>section:nth-child(5)>section:nth-child(3)>a>h2{
         position: relative;
         left: 710px;
         top: 100px;
@@ -1371,7 +1381,7 @@
 
     <section>
                         <img id="me" src="assets/images/me.jpg" alt="">
-                        <img id="girl" src="assets/images/2_girl.jpg" alt="">
+                        <img id="girl" src="assets/images/clip-girl-studying.png" alt="">
                     </section>
 
                     <section>
@@ -1471,7 +1481,7 @@
         </div>
     </section>
 
-    <section><h2>View more</h2></section>
+    <section><a href="https://github.com/MilashaThathsarani"><h2>View more</h2></a></section>
 
 </section>
 
@@ -1527,7 +1537,7 @@
 
 <section id="s7" style="height: 100vh">
     <section>
-        <img src="assets/images/singgirl.jpg" alt="">
+        <img src="assets/images/sisisis.jpg" alt="">
         <img src="assets/images/Girl%20playing%20violin.png" alt="" >
         <img src="assets/images/woman-travel-clipart-lg.png" alt="">
     </section>
