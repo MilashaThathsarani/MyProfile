@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/fonts/css/all.css">
+<!--    <link rel="stylesheet" href="assets/css/responsive.css">-->
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
@@ -41,7 +42,7 @@
         top: 0;
         left: 0;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         height: 60px;
 
         background: rgb(0,0,0);
@@ -207,12 +208,13 @@
     }
     body>section:nth-child(1)>section>h1:nth-child(2){
         font-size: 150px;
-        left: 90px;
-        top: 230px;
+        left: 82px;
+        top: 350px;
         position: absolute;
         color: transparent;
-        width: 910px;
-        margin-left: -10px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
         line-height: 160px;
         -webkit-text-stroke: 1px #fff;
         background: url("assets/images/back.png");
@@ -375,9 +377,11 @@
         position: relative;
         bottom: 325px;
         left: 60px;
-        margin:-10px;
+        margin:0;
         font-family: Candara;
         font-size: 30px;
+        padding: 0;
+        width: 200px;
     }
 
     /*main>section:nth-child(2)>h1{*/
@@ -529,8 +533,10 @@
         left: 60px;
         font-size: 30px;
         top: 105px;
-        margin: -10px;
+        margin: 0;
         font-family: Candara;
+        padding: 0;
+        width: 100px;
     }
     body>section:nth-child(4)>section:nth-child(2) {
         width: 100vw;
@@ -578,12 +584,12 @@
         background-size: cover;
         background-position: center;
         transition: 0.8s;
+        cursor: pointer;
     }
 
     body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1):hover{
-        transition-property: all;
-        transition: 0.8s;
-        cursor: pointer;
+        transform: scale(0.8);
+        transition: all 1s;
     }
 
     body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
@@ -591,35 +597,63 @@
         background-size: cover;
         background-position: center;
     }
+    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2):hover{
+        transform: scale(0.8);
+        transition: all 1s;
+    }
     body>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
         background: url("assets/images/javafx-tutorial.png");
         background-size: cover;
         background-position: center;
+    }
+    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(3):hover{
+        transform: scale(0.8);
+        transition: all 1s;
     }
     body>section:nth-child(4)>section:nth-child(2)>div:nth-child(4){
         background: url("assets/images/jasper.png");
         background-size: cover;
         background-position: center;
     }
+    body>section:nth-child(4)>section:nth-child(2)>div:nth-child(4):hover{
+        transform: scale(0.8);
+        transition: all 1s;
+    }
     body>section:nth-child(4)>section:nth-child(3)>div:nth-child(1){
         background: url("assets/images/images.png");
         background-size: cover;
         background-position: center;
+    }
+    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(1):hover{
+        transform: scale(0.8);
+        transition: all 1s;
     }
     body>section:nth-child(4)>section:nth-child(3)>div:nth-child(2){
         background: url("assets/images/css1.jpg");
         background-size: cover;
         background-position: center;
     }
+    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(2):hover{
+        transform: scale(0.8);
+        transition: all 1s;
+    }
     body>section:nth-child(4)>section:nth-child(3)>div:nth-child(3){
         background: url("assets/images/js.png");
         background-size: cover;
         background-position: center;
     }
+    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(3):hover{
+        transform: scale(0.8);
+        transition: all 1s;
+    }
     body>section:nth-child(4)>section:nth-child(3)>div:nth-child(4){
         background: url("assets/images/node.png");
         background-size: cover;
         background-position: center;
+    }
+    body>section:nth-child(4)>section:nth-child(3)>div:nth-child(4):hover{
+        transform: scale(0.8);
+        transition: all 1s;
     }
 
     /*--------------------------------------------------------------------------------*/
@@ -648,17 +682,35 @@
 
     body>section:nth-child(5)>section>div:nth-child(1){
         background-color:white;
-        border: 5px solid gray;
+        border: 5px solid black;
+        curser:pointer;
     }
+
+    body>section:nth-child(5)>section>div:nth-child(1):hover{
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+
+
 
     body>section:nth-child(5)>section>div:nth-child(2){
         background-color:white;
-        border: 5px solid gray;
+        border: 5px solid black;
+    }
+
+    body>section:nth-child(5)>section>div:nth-child(2):hover{
+        transform: scale(1.1);
+        transition: all 1s;
     }
 
     body>section:nth-child(5)>section>div:nth-child(3){
         background-color:white;
-        border: 5px solid gray;
+        border: 5px solid black;
+    }
+
+    body>section:nth-child(5)>section>div:nth-child(3):hover{
+        transform: scale(1.1);
+        transition: all 1s;
     }
 
     body>section:nth-child(5)>section>div:nth-child(1){
@@ -1419,6 +1471,1677 @@
 
 
 
+
+
+
+
+
+
+    /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    @media all and (max-width: 320px) {
+        header {
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+        }
+
+
+        body > section:nth-child(1) > section > h1:nth-child(1) {
+            left: 29px;
+            font-size: 47px;
+            top: 106px;
+        }
+
+        body > section:nth-child(1) > section > h1:nth-child(2) {
+            font-size: 71px;
+            left: 29px;
+            top: 234px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(3) {
+            left: 29px;
+            font-size: 17px;
+            top: 469px;
+        }
+        body > section:nth-child(1) > section > p {
+            position: absolute;
+            left: 29px;
+            top: 234px;
+            font-size: 29px;
+        }
+
+        /*About me ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(2) {
+            background: rgb(73, 73, 74);
+            background: linear-gradient(90deg, rgba(73, 73, 74, 0.7038165608040091) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+
+        header {
+            height: 50px;
+            z-index: 2;
+        }
+
+        #me {
+            width: 198px;
+            left: 60px;
+            top: 102px;
+        }
+
+        #girl {
+            display: none;
+        }
+
+        #list {
+            left: 77px;
+            bottom: -93px;
+            font-size: 19px;
+        }
+
+        #whatsapp {
+            width: 20px;
+            left: 22px;
+            top: 310px;
+        }
+
+        #facebook {
+            width: 20px;
+            top: 310px;
+            left: 43px;
+
+        }
+
+        #linkedin {
+            width: 20px;
+            top: 310px;
+            left: 70px;
+        }
+
+        #twitter {
+            width: 20px;
+            left: 144px;
+            top: 310px;
+        }
+
+        #gmail {
+            width: 20px;
+            left: 171px;
+            top: 310px;
+        }
+
+        #github {
+            width: 20px;
+            left: 46px;
+            top: 310px;
+        }
+
+        body > section:nth-child(2) > h1 {
+            bottom: 187px;
+            left: 30px;
+            margin: 0;
+            font-size: 25px;
+        }
+
+
+        /*Education ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(3) > section:nth-child(1) > img {
+            width: 69px;
+            height: 73px;
+            left: 127px;
+            z-index: 1;
+            top: 1283px;
+        }
+
+        body > section:nth-child(3) > section:nth-child(2) > img {
+            width: 237px;
+            height: 383px;
+            left: 49px;
+            top: 1338px;
+
+        }
+
+        body > section:nth-child(3) > section:nth-child(3) > img {
+            width: 77px;
+            height: 54px;
+            left: 16px;
+            top: 1419px
+        }
+
+        body > section:nth-child(3) > section:nth-child(3) > h1 {
+            left: 23px;
+            top: 205px;
+            font-size: 12px;
+        }
+
+        body > section:nth-child(3) > section:nth-child(4) > h1 {
+            left: 118px;
+            top: 523px;
+            font-size: 12px;
+        }
+
+        body > section:nth-child(3) > section:nth-child(4) > img {
+            width: 66px;
+            height: 57px;
+            left: 26px;
+            top: 1667px;
+        }
+        body > section:nth-child(3) > h1 {
+            position: relative;
+            top: 61px;
+            left: 30px;
+            margin: -10px;
+            font-size: 25px;
+        }
+
+        /* Skills--------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(4) > section:nth-child(1) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 50px;
+        }
+
+        body > section:nth-child(4) > section:nth-child(2) {
+            width: 450px;
+            height: 450px;
+            top: 1852px;
+            left: -143px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(2) > div {
+            width: 100px;
+            height: 118px;
+            border-radius: 10%;
+            margin: 9px;
+        }
+        body > section:nth-child(4) > section:nth-child(3) {
+            width: 450px;
+            height: 450px;
+            top: 1852px;
+            left: 15px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(3) > div {
+            width: 100px;
+            height: 118px;
+            margin: 9px;
+        }
+
+        /*Projects----------------------------------*/
+        body > section:nth-child(5) > section:nth-child(1) {
+            height: 457px;
+            top: 81px;
+            flex-direction: column;
+            width: 225px;
+            left: 45px;
+        }
+        body > section:nth-child(5) > section > div {
+            height: 103px;
+            width: 151px;
+            border-radius: 10%;
+        }
+        body > section:nth-child(5) > section > div:nth-child(1) > a {
+            top: 71px;
+            left: 7px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(2) > a {
+            top: 72px;
+            left: 13px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(3) > a {
+            top: 76px;
+            font-size: 14px;
+            left: 26px;
+        }
+        body > section:nth-child(5) > h1 {
+            color: black;
+            left: 31px;
+            bottom: 420px;
+            font-size: 25px;
+        }
+        body > section:nth-child(5) > section:nth-child(2) > a > h2 {
+            left: 115px;
+            top: 72px;
+            font-size: 21px;
+        }
+
+        /* Assignments-----------------------------------------------------------------------------------------*/
+        body > section:nth-child(6) > section:nth-child(2) {
+            top: 3020px;
+            flex-direction: column;
+            left: -71px;
+            height: 450px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div {
+            height: 65px;
+            width: 65px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) {
+            top: 3020px;
+            flex-direction: column;
+            left: 51px;
+            height: 450px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div {
+            height: 65px;
+            width: 65px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(1) > h1 {
+            left: 50px;
+            bottom: 580px;
+            font-size: 30px;
+            top: 3680px;
+        }
+
+        /* Activities----------------------------------------------------------------------------------*/
+        body > section:nth-child(7) > section:nth-child(1) {
+            height: 411px;
+            top: 127px;
+            flex-direction: column;
+            left: -49px;
+        }
+        body > section:nth-child(7) > section:nth-child(1) > img {
+            height: 108px;
+            width: 186px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(1) {
+            left: 207px;
+            top: -202px;
+            font-size: 17px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(2) {
+            left: 183px;
+            top: -78px;
+            font-size: 17px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(3) {
+            left: 192px;
+            top: 49px;
+            font-size: 17px;
+        }
+        body > section:nth-child(7) > section:nth-child(3) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 3548px;
+        }
+
+        /*Contact -------------------------------------------------------------------------------------------*/
+
+        #whatsappc{
+            width: 15px;
+            left: 30px;
+            top: 4406px;
+        }
+        #facebookc{
+            width: 15px;
+            left: 30px;
+            top: 4447px;
+        }
+        #linkedinc{
+            width: 15px;
+            left: 30px;
+            top: 4489px;
+        }
+        #twitterc{
+            width: 15px;
+            left: 30px;
+            top: 4528px
+        }
+        #gmailc{
+            width: 15px;
+            left: 30px;
+            top: 4566px;
+        }
+        #githubc {
+            width: 15px;
+            left: 30px;
+            top: 4602px;
+        }
+        #placehold{
+            width: 15px;
+            left: 30px;
+            top: 4639px;
+        }
+        body>section:nth-child(8)>section:nth-child(1){
+            font-size: 16px;
+            color: white;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
+            left: 65px;
+            top: 317px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
+            left: 65px;
+            top: 357px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
+            left: 65px;
+            top: 399px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
+            left: 65px;
+            top: 440px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
+            left: 65px;
+            top: 477px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
+            left: 65px;
+            top: 514px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
+            left: 65px;
+            top: 550px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(3){
+            height: 430px;
+            right: 90px;
+            width: 500px;
+            top: 5200px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1) {
+            left: 297px;
+            top: -1001px;
+            width: 262px;
+            height: 30px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
+            left: 297px;
+            top: -961px;
+            width: 262px;
+            height: 32px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
+            left: 297px;
+            top: -919px;
+            width: 262px;
+            height: 70px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>button {
+            left: 369px;
+            top: -844px;
+            width: 102px;
+            height: 27px;
+        }
+        body>section:nth-child(8)>section:nth-child(4) {
+            left: 30px;
+            bottom: -35px;
+            font-size: 11px;
+        }
+    }
+
+    /******************************************************************************************************************/
+    @media all and (min-width: 375px)and (max-width: 425px)  {
+        header {
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+        }
+
+
+        body > section:nth-child(1) > section > h1:nth-child(1) {
+            left: 29px;
+            font-size: 47px;
+            top: 106px;
+        }
+
+        body > section:nth-child(1) > section > h1:nth-child(2) {
+            font-size: 71px;
+            left: 29px;
+            top: 234px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(3) {
+            left: 29px;
+            font-size: 17px;
+            top: 469px;
+        }
+        body > section:nth-child(1) > section > p {
+            position: absolute;
+            left: 29px;
+            top: 234px;
+            font-size: 29px;
+        }
+
+        /*About me ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(2) {
+            background: rgb(73, 73, 74);
+            background: linear-gradient(90deg, rgba(73, 73, 74, 0.7038165608040091) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+        header {
+            height: 50px;
+            z-index: 2;
+        }
+        #me {
+            width: 198px;
+            left: 85px;
+            top: 102px;
+        }
+        #girl {
+            display: none;
+        }
+        #list {
+            left: 105px;
+            bottom: -93px;
+            font-size: 19px;
+        }
+        #whatsapp {
+            width: 20px;
+            left: 22px;
+            top: 310px;
+        }
+        #facebook {
+            width: 20px;
+            top: 310px;
+            left: 56px;
+        }
+        #linkedin {
+            width: 20px;
+            top: 310px;
+            left: 99px;
+        }
+        #twitter {
+            width: 20px;
+            left: 196px;
+            top: 310px;
+        }
+        #gmail {
+            width: 20px;
+            left: 230px;
+            top: 310px;
+        }
+        #github {
+            width: 20px;
+            left: 87px;
+            top: 310px;
+        }
+        body > section:nth-child(2) > h1 {
+            bottom: 187px;
+            left: 30px;
+            margin: 0;
+            font-size: 25px;
+        }
+
+        /*Education ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(3) > section:nth-child(1) > img {
+            width: 69px;
+            height: 73px;
+            left: 155px;
+            top: 1283px;
+        }
+        body > section:nth-child(3) > section:nth-child(2) > img {
+            width: 241px;
+            height: 383px;
+            left: 76px;
+            top: 1343px;
+        }
+        body > section:nth-child(3) > section:nth-child(3) > img {
+            width: 77px;
+            height: 54px;
+            left: 16px;
+            top: 1419px
+        }
+        body > section:nth-child(3) > section:nth-child(3) > h1 {
+            left: 23px;
+            top: 205px;
+            font-size: 12px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > h1 {
+            left: 177px;
+            top: 526px;
+            font-size: 12px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > img {
+            width: 66px;
+            height: 57px;
+            left: 94px;
+            top: 1678px;
+        }
+        body > section:nth-child(3) > h1 {
+            position: relative;
+            top: 61px;
+            left: 30px;
+            margin: -10px;
+            font-size: 25px;
+        }
+
+        /* Skills--------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(4) > section:nth-child(1) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 50px;
+        }
+
+        body > section:nth-child(4) > section:nth-child(2) {
+            width: 453px;
+            height: 467px;
+            top: 1852px;
+            left: -120px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(2) > div {
+            width: 100px;
+            height: 118px;
+            border-radius: 10%;
+            margin: 9px;
+        }
+        body > section:nth-child(4) > section:nth-child(3) {
+            width: 450px;
+            height: 467px;
+            top: 1852px;
+            left: 39px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(3) > div {
+            width: 100px;
+            height: 118px;
+            margin: 9px;
+        }
+
+        /*Projects----------------------------------*/
+        body > section:nth-child(5) > section:nth-child(1) {
+            height: 471px;
+            top: 81px;
+            flex-direction: column;
+            width: 225px;
+            left: 73px;
+        }
+        body > section:nth-child(5) > section > div {
+            height: 103px;
+            width: 151px;
+            border-radius: 10%;
+        }
+        body > section:nth-child(5) > section > div:nth-child(1) > a {
+            top: 71px;
+            left: 7px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(2) > a {
+            top: 72px;
+            left: 13px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(3) > a {
+            top: 76px;
+            font-size: 14px;
+            left: 26px;
+        }
+        body > section:nth-child(5) > h1 {
+            color: black;
+            left: 31px;
+            bottom: 420px;
+            font-size: 25px;
+        }
+        body > section:nth-child(5) > section:nth-child(2) > a > h2 {
+            left: 142px;
+            top: 67px;
+            font-size: 21px;
+        }
+
+        /* Assignments-----------------------------------------------------------------------------------------*/
+        body > section:nth-child(6) > section:nth-child(2) {
+            top: 3020px;
+            flex-direction: column;
+            left: -71px;
+            height: 466px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div {
+            height: 75px;
+            width: 75px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) {
+            top: 3020px;
+            flex-direction: column;
+            left: 68px;
+            height: 466px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div {
+            height: 75px;
+            width: 75px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(1) > h1 {
+            left: 50px;
+            bottom: 580px;
+            font-size: 30px;
+            top: 3680px;
+        }
+
+        /* Activities----------------------------------------------------------------------------------*/
+        body > section:nth-child(7) > section:nth-child(1) {
+            height: 444px;
+            top: 127px;
+            flex-direction: column;
+            left: -65px;
+        }
+        body > section:nth-child(7) > section:nth-child(1) > img {
+            height: 108px;
+            width: 160px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(1) {
+            left: 210px;
+            top: -244px;
+            font-size: 20px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(2) {
+            left: 210px;
+            top: -100px;
+            font-size: 20px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(3) {
+            left: 210px;
+            top: 49px;
+            font-size: 20px;
+        }
+        body > section:nth-child(7) > section:nth-child(3) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 3548px;
+        }
+
+        /*Contact -------------------------------------------------------------------------------------------*/
+
+        #whatsappc{
+            width: 15px;
+            left: 30px;
+            top: 4406px;
+        }
+        #facebookc{
+            width: 15px;
+            left: 30px;
+            top: 4447px;
+        }
+        #linkedinc{
+            width: 15px;
+            left: 30px;
+            top: 4489px;
+        }
+        #twitterc{
+            width: 15px;
+            left: 30px;
+            top: 4528px
+        }
+        #gmailc{
+            width: 15px;
+            left: 30px;
+            top: 4566px;
+        }
+        #githubc {
+            width: 15px;
+            left: 30px;
+            top: 4602px;
+        }
+        #placehold{
+            width: 15px;
+            left: 30px;
+            top: 4639px;
+        }
+        body>section:nth-child(8)>section:nth-child(1){
+            font-size: 16px;
+            color: white;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
+            left: 65px;
+            top: 317px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
+            left: 65px;
+            top: 357px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
+            left: 65px;
+            top: 399px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
+            left: 65px;
+            top: 440px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
+            left: 65px;
+            top: 477px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
+            left: 65px;
+            top: 514px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
+            left: 65px;
+            top: 550px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(3){
+            height: 430px;
+            right: 90px;
+            width: 500px;
+            top: 5200px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1) {
+            left: 267px;
+            top: -1001px;
+            width: 262px;
+            height: 30px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
+            left: 267px;
+            top: -961px;
+            width: 262px;
+            height: 32px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
+            left: 267px;
+            top: -919px;
+            width: 262px;
+            height: 70px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>button {
+            left: 348px;
+            top: -844px;
+            width: 102px;
+            height: 27px;
+        }
+        body>section:nth-child(8)>section:nth-child(4) {
+            left: 30px;
+            bottom: -35px;
+            font-size: 11px;
+        }
+    }
+
+
+    /******************************************************************************************************************/
+
+    @media all and (min-width: 425px)and (max-width: 768px)  {
+        header {
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(1) {
+            left: 29px;
+            font-size: 47px;
+            top: 106px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(2) {
+            font-size: 86px;
+            left: 26px;
+            top: 244px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(3) {
+            left: 29px;
+            font-size: 17px;
+            top: 469px;
+        }
+        body > section:nth-child(1) > section > p {
+            position: absolute;
+            left: 29px;
+            top: 234px;
+            font-size: 29px;
+        }
+
+        /*About me ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(2) {
+            background: rgb(73, 73, 74);
+            background: linear-gradient(90deg, rgba(73, 73, 74, 0.7038165608040091) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+        header {
+            height: 50px;
+            z-index: 2;
+        }
+        #me {
+            width: 210px;
+            left: 103px;
+            top: 102px;
+        }
+        #girl {
+            display: none;
+        }
+        #list {
+            left: 120px;
+            bottom: -93px;
+            font-size: 19px;
+        }
+        #whatsapp {
+            width: 20px;
+            left: 43px;
+            top: 310px;
+        }
+        #facebook {
+            width: 20px;
+            top: 310px;
+            left: 81px;
+        }
+        #linkedin {
+            width: 20px;
+            top: 310px;
+            left: 126px;
+        }
+        #twitter {
+            width: 20px;
+            left: 223px;
+            top: 310px;
+        }
+        #gmail {
+            width: 20px;
+            left: 262px;
+            top: 310px;
+        }
+        #github {
+            width: 20px;
+            left: 113px;
+            top: 310px;
+        }
+        body > section:nth-child(2) > h1 {
+            bottom: 187px;
+            left: 30px;
+            margin: 0;
+            font-size: 25px;
+        }
+
+        /*Education ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(3) > section:nth-child(1) > img {
+            width: 73px;
+            height: 73px;
+            left: 175px;
+            top: 1283px;
+        }
+        body > section:nth-child(3) > section:nth-child(2) > img {
+            width: 276px;
+            height: 383px;
+            left: 83px;
+            top: 1343px;
+        }
+        body > section:nth-child(3) > section:nth-child(3) > img {
+            width: 77px;
+            height: 54px;
+            left: 16px;
+            top: 1419px
+        }
+        body > section:nth-child(3) > section:nth-child(3) > h1 {
+            left: 23px;
+            top: 205px;
+            font-size: 13px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > h1 {
+            left: 177px;
+            top: 526px;
+            font-size: 13px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > img {
+            width: 66px;
+            height: 57px;
+            left: 94px;
+            top: 1678px;
+        }
+        body > section:nth-child(3) > h1 {
+            position: relative;
+            top: 61px;
+            left: 30px;
+            margin: -10px;
+            font-size: 25px;
+        }
+
+        /* Skills--------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(4) > section:nth-child(1) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 50px;
+        }
+
+        body > section:nth-child(4) > section:nth-child(2) {
+            width: 453px;
+            height: 467px;
+            top: 1852px;
+            left: -111px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(2) > div {
+            width: 100px;
+            height: 118px;
+            border-radius: 10%;
+            margin: 9px;
+        }
+        body > section:nth-child(4) > section:nth-child(3) {
+            width: 450px;
+            height: 467px;
+            top: 1852px;
+            left: 75px;
+            flex-direction: column;
+        }
+        body > section:nth-child(4) > section:nth-child(3) > div {
+            width: 100px;
+            height: 118px;
+            margin: 9px;
+        }
+
+        /*Projects----------------------------------*/
+        body > section:nth-child(5) > section:nth-child(1) {
+            height: 471px;
+            top: 81px;
+            flex-direction: column;
+            width: 225px;
+            left: 102px;
+        }
+        body > section:nth-child(5) > section > div {
+            height: 103px;
+            width: 151px;
+            border-radius: 10%;
+        }
+        body > section:nth-child(5) > section > div:nth-child(1) > a {
+            top: 71px;
+            left: 7px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(2) > a {
+            top: 72px;
+            left: 13px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(3) > a {
+            top: 76px;
+            font-size: 14px;
+            left: 26px;
+        }
+        body > section:nth-child(5) > h1 {
+            color: black;
+            left: 31px;
+            bottom: 420px;
+            font-size: 25px;
+        }
+        body > section:nth-child(5) > section:nth-child(2) > a > h2 {
+            left: 172px;
+            top: 67px;
+            font-size: 21px;
+        }
+
+        /* Assignments-----------------------------------------------------------------------------------------*/
+        body > section:nth-child(6) > section:nth-child(2) {
+            top: 3020px;
+            flex-direction: column;
+            left: -102px;
+            height: 466px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div {
+            height: 85px;
+            width: 85px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) {
+            top: 3020px;
+            flex-direction: column;
+            left: 93px;
+            height: 466px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div {
+            height: 85px;
+            width: 85px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(1) > h1 {
+            left: 50px;
+            bottom: 580px;
+            font-size: 30px;
+            top: 3680px;
+        }
+
+        /* Activities----------------------------------------------------------------------------------*/
+        body > section:nth-child(7) > section:nth-child(1) {
+            height: 444px;
+            top: 127px;
+            flex-direction: column;
+            left: -65px;
+        }
+        body > section:nth-child(7) > section:nth-child(1) > img {
+            height: 108px;
+            width: 160px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(1) {
+            left: 240px;
+            top: -244px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(2) {
+            left: 240px;
+            top: -100px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(3) {
+            left: 240px;
+            top: 49px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(3) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 3548px;
+        }
+
+        /*Contact -------------------------------------------------------------------------------------------*/
+
+        #whatsappc{
+            width: 15px;
+            left: 45px;
+            top: 4406px;
+        }
+        #facebookc{
+            width: 15px;
+            left: 45px;
+            top: 4447px;
+        }
+        #linkedinc{
+            width: 15px;
+            left: 45px;
+            top: 4489px;
+        }
+        #twitterc{
+            width: 15px;
+            left: 45px;
+            top: 4528px
+        }
+        #gmailc{
+            width: 15px;
+            left: 45px;
+            top: 4566px;
+        }
+        #githubc {
+            width: 15px;
+            left: 45px;
+            top: 4602px;
+        }
+        #placehold{
+            width: 15px;
+            left: 45px;
+            top: 4639px;
+        }
+        body>section:nth-child(8)>section:nth-child(1){
+            font-size: 16px;
+            color: white;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
+            left: 100px;
+            top: 317px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
+            left: 100px;
+            top: 357px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
+            left: 100px;
+            top: 399px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
+            left: 100px;
+            top: 440px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
+            left: 100px;
+            top: 477px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
+            left: 100px;
+            top: 514px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
+            left: 100px;
+            top: 550px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(3){
+            height: 430px;
+            right: 90px;
+            width: 500px;
+            top: 5200px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1) {
+            left: 217px;
+            top: -1001px;
+            width: 315px;
+            height: 30px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
+            left: 217px;
+            top: -961px;
+            width: 315px;
+            height: 32px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
+            left: 217px;
+            top: -919px;
+            width: 315px;
+            height: 70px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>button {
+            left: 322px;
+            top: -844px;
+            width: 102px;
+            height: 27px;
+        }
+        body>section:nth-child(8)>section:nth-child(4) {
+            left: 30px;
+            bottom: -35px;
+            font-size: 11px;
+        }
+    }
+
+
+    /*************************************************************************************************/
+
+    @media all and (min-width: 768px)and (max-width: 1024px)  {
+        header {
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(1) {
+            left: 40px;
+            font-size: 47px;
+            top: 106px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(2) {
+            font-size: 96px;
+            left: 40px;
+            top: 244px;
+        }
+        body > section:nth-child(1) > section > h1:nth-child(3) {
+            left: 40px;
+            font-size: 17px;
+            top: 469px;
+        }
+        body > section:nth-child(1) > section > p {
+            position: absolute;
+            left: 40px;
+            top: 234px;
+            font-size: 29px;
+        }
+
+        /*About me ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(2) {
+            background: rgb(73, 73, 74);
+            background: linear-gradient(90deg, rgba(73, 73, 74, 0.7038165608040091) 0%, rgba(0, 0, 0, 1) 100%);
+        }
+        header {
+            height: 50px;
+            z-index: 2;
+        }
+        #me {
+            width: 252px;
+            left: 32px;
+            top: 197px;
+        }
+        #girl {
+            display: inherit;
+            width: 340px;
+            top: 847px;
+            left: 435px;
+            height: 342px;
+        }
+        #list {
+            left: 343px;
+            bottom: 44px;
+            font-size: 19px;
+        }
+        #whatsapp {
+            width: 20px;
+            left: 43px;
+            top: 268px;
+        }
+        #facebook {
+            width: 20px;
+            top: 268px;
+            left: 81px;
+        }
+        #linkedin {
+            width: 20px;
+            top: 268px;
+            left: 126px;
+        }
+        #twitter {
+            width: 20px;
+            left: 223px;
+            top: 268px;
+        }
+        #gmail {
+            width: 20px;
+            left: 262px;
+            top: 268px;
+        }
+        #github {
+            width: 20px;
+            left: 113px;
+            top: 268px;
+        }
+        body > section:nth-child(2) > h1 {
+            bottom: 204px;
+            left: 30px;
+            margin: 0;
+            font-size: 25px;
+        }
+
+        /*Education ----------------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(3) > section:nth-child(1) > img {
+            width: 75px;
+            height: 75px;
+            left: 351px;
+            top: 1276px;
+        }
+        body > section:nth-child(3) > section:nth-child(2) > img {
+            width: 385px;
+            height: 433px;
+            left: 210px;
+            top: 1307px;
+        }
+        body > section:nth-child(3) > section:nth-child(3) > img {
+            width: 111px;
+            height: 78px;
+            left: 7px;
+            top: 1419px;
+        }
+        body > section:nth-child(3) > section:nth-child(3) > h1 {
+            left: 23px;
+            top: 193px;
+            font-size: 15px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > h1 {
+            left: 494px;
+            top: 514px;
+            font-size: 15px;
+        }
+        body > section:nth-child(3) > section:nth-child(4) > img {
+            width: 88px;
+            height: 72px;
+            left: 628px;
+            top: 1601px;
+        }
+        body > section:nth-child(3) > h1 {
+            position: relative;
+            top: 84px;
+            left: 30px;
+            margin: -10px;
+            font-size: 25px;
+        }
+
+        /* Skills--------------------------------------------------------------------------------------------------*/
+        body > section:nth-child(4) > section:nth-child(1) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 66px;
+        }
+
+        body > section:nth-child(4) > section:nth-child(2) {
+            width: 638px;
+            height: 100px;
+            top: 1921px;
+            align-items: center;
+            left: 57px;
+            flex-direction: row;
+        }
+        body > section:nth-child(4) > section:nth-child(2) > div {
+            width: 135px;
+            height: 139px;
+        }
+        body > section:nth-child(4) > section:nth-child(3) {
+            width: 638px;
+            height: 100px;
+            top: 2134px;
+            align-items: center;
+            left: 57px;
+            flex-direction: row;
+        }
+        body > section:nth-child(4) > section:nth-child(3) > div {
+            width: 135px;
+            height: 139px;
+        }
+
+        /*Projects----------------------------------*/
+        body > section:nth-child(5) > section:nth-child(1) {
+            height: 390px;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            top: 101px;
+            width: 650px;
+            left: 50px;
+        }
+        body > section:nth-child(5) > section > div {
+            height: 178px;
+            width: 199px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(1) > a {
+            top: 71px;
+            left: 7px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(2) > a {
+            top: 72px;
+            left: 13px;
+            font-size: 13px;
+        }
+        body > section:nth-child(5) > section > div:nth-child(3) > a {
+            top: 76px;
+            font-size: 14px;
+            left: 26px;
+        }
+        body > section:nth-child(5) > h1 {
+            color: black;
+            left: 31px;
+            bottom: 321px;
+            font-size: 25px;
+        }
+        body > section:nth-child(5) > section:nth-child(2) > a > h2 {
+            left: 319px;
+            top: 67px;
+            font-size: 32px;
+        }
+
+        /* Assignments-----------------------------------------------------------------------------------------*/
+        body > section:nth-child(6) > section:nth-child(2) {
+            top: 3066px;
+            flex-direction: row;
+            left: 17px;
+            height: 166px;
+            width: 731px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div {
+            height: 120px;
+            width: 120px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) {
+            top: 3247px;
+            flex-direction: row;
+            left: 17px;
+            height: 166px;
+            width: 731px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div {
+            height: 120px;
+            width: 120px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(2) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(1) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(2) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(3) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(4) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(3) > div:nth-child(5) > a {
+            font-size: 8px;
+        }
+        body > section:nth-child(6) > section:nth-child(1) > h1 {
+            left: 50px;
+            bottom: 580px;
+            font-size: 30px;
+            top: 3680px;
+        }
+
+        /* Activities----------------------------------------------------------------------------------*/
+        body > section:nth-child(7) > section:nth-child(1) {
+            height: 464px;
+            top: 73px;
+            flex-direction: row;
+            width: 622px;
+            left: 74px;
+        }
+        body > section:nth-child(7) > section:nth-child(1) > img {
+            height: 177px;
+            width:187px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(1) {
+            left: 89px;
+            top: -3px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(2) {
+            left: 302px;
+            top: -3px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(3) {
+            left: 549px;
+            top: -3px;
+            font-size: 22px;
+        }
+        body > section:nth-child(7) > section:nth-child(3) > h1 {
+            left: 30px;
+            font-size: 25px;
+            top: 3555px;
+        }
+
+        /*Contact -------------------------------------------------------------------------------------------*/
+
+        #whatsappc{
+            width: 15px;
+            left: 45px;
+            top: 4406px;
+        }
+        #facebookc{
+            width: 15px;
+            left: 45px;
+            top: 4447px;
+        }
+        #linkedinc{
+            width: 15px;
+            left: 45px;
+            top: 4489px;
+        }
+        #twitterc{
+            width: 15px;
+            left: 45px;
+            top: 4528px
+        }
+        #gmailc{
+            width: 15px;
+            left: 45px;
+            top: 4566px;
+        }
+        #githubc {
+            width: 15px;
+            left: 45px;
+            top: 4602px;
+        }
+        #placehold{
+            width: 15px;
+            left: 45px;
+            top: 4639px;
+        }
+        body>section:nth-child(8)>section:nth-child(1){
+            font-size: 16px;
+            color: white;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
+            left: 100px;
+            top: 317px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
+            left: 100px;
+            top: 357px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
+            left: 100px;
+            top: 399px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
+            left: 100px;
+            top: 440px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
+            left: 100px;
+            top: 477px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
+            left: 100px;
+            top: 514px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
+            left: 100px;
+            top: 550px;
+            font-size: 17px;
+        }
+        body>section:nth-child(8)>section:nth-child(3){
+            height: 430px;
+            right: 90px;
+            width: 500px;
+            top: 5200px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1) {
+            left: 217px;
+            top: -1001px;
+            width: 315px;
+            height: 30px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
+            left: 217px;
+            top: -961px;
+            width: 315px;
+            height: 32px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
+            left: 217px;
+            top: -919px;
+            width: 315px;
+            height: 70px;
+        }
+        body>section:nth-child(8)>section:nth-child(3)>form>button {
+            left: 322px;
+            top: -844px;
+            width: 102px;
+            height: 27px;
+        }
+        body>section:nth-child(8)>section:nth-child(4) {
+            left: 30px;
+            bottom: -35px;
+            font-size: 11px;
+        }
+    }
 </style>
 
 
@@ -1449,8 +3172,6 @@
                 Web Designer</b></h1>
             <p>I,m</p>
         </section>
-
-
 </section>
 
 <!--  ---------------------------------------------------------------------------->
@@ -1486,8 +3207,6 @@
 
 <!-- ---------------------------------------------------------------------->
 
-
-
 <section id="s3" style="height: 100vh">
 
     <section>
@@ -1512,9 +3231,7 @@
 
 </section>
 
-
 <!-- ------------------------------------------------------------------------------->
-
 
 <section id="s4" style="height: 100vh">
 
@@ -1538,13 +3255,9 @@
     </section>
 </section>
 
-
 <!------------------------------------------------------------------------------------>
 
 <section id="s5" style="height: 100vh">
-
-
-
 
     <section>
         <div>
@@ -1564,7 +3277,6 @@
     <h1>Projects_</h1>
 
 </section>
-
 
 <!-- -------------------------------------------------------------------------------------->
 
@@ -1611,9 +3323,7 @@
 
 </section>
 
-
 <!----------------------------------------------------------------------------------------->
-
 
 <section id="s7" style="height: 100vh">
     <section>
@@ -1631,13 +3341,9 @@
     <section>
         <h1>Activities_</h1>
     </section>
-
-
 </section>
 
-
 <!---------------------------------------------------------------------------------->
-
 
 <section id="s8" style="height: 100vh">
 
@@ -1677,9 +3383,6 @@
         <h1>Contact_</h1>
     </section>
 </section>
-
-
 </body>
-
 
 </html>

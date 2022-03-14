@@ -12,7 +12,7 @@
 <header>
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Baby World
+            <a class="navbar-brand" href="#">Babies Island
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +41,140 @@
 
         <div class="dashBoardimg">
 
+        </div>
+    </div>
+</section>
+
+
+<section class="container-fluid customer-area">
+    <br><br>
+    <div class="row">
+        <div class="col-12 col-xl-6 col-xxl-6 customer-form">
+            <h1>Customer Manage</h1>
+            <div class="row">
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtCusID" class="form-label">Customer ID</label>
+                    <input type="text" class="form-control" id="txtCusID">
+                    <p><small class="text-danger pl-1" id="lblcusid"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtCusName" class="form-label">Customer Name</label>
+                    <input type="text" class="form-control" id="txtCusName">
+                    <p><small class="text-danger pl-1" id="lblcusname"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtCusAddress" class="form-label">Customer Address</label>
+                    <input type="text" class="form-control" id="txtCusAddress">
+                    <p><small class="text-danger pl-1" id="lblcusaddress"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtCusSalary" class="form-label">Customer Salary</label>
+                    <input type="text" class="form-control" id="txtCusSalary">
+                    <p><small class="text-danger pl-1" id="lblcussalary"></small></p>
+                </div>
+                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-save-customer">Save</button>
+                <button type="button" class="btn btn-success col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-update-customer">Update</button>
+                <button type="button" class="btn btn-danger col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-delete-customer">Delete</button>
+                <!--                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-customer-clear-feild">clear</button>-->
+
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-6 col-xxl-6 customer-search">
+            <h1>Customer Search</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3 input-group-sm col-9 mx-5">
+                        <label for="txtCustomerSearch" class="form-label">Input Customer ID Here</label>
+                        <input type="text" class="form-control" id="txtCustomerSearch">
+                    </div>
+                    <button type="button" class="btn btn-success col-6 col-xl-2 col-xxl-2 mx-5" id="btn-customer-search">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col=12">
+            <br><br>
+            <table class="table table-hover" id="customer-table">
+                <thead>
+                <tr>
+                    <th>Customer NIC</th>
+                    <th>Customer Name</th>
+                    <th>Customer Address</th>
+                    <th>Salary</th>
+                </tr>
+                </thead>
+                <tbody id="customerTable">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid item-area">
+    <div class="row">
+        <div class="col-12 col-xl-6 col-xxl-6 Item-form">
+            <h1>Item Manage</h1>
+            <div class="row">
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtItemCode" class="form-label">Item Code</label>
+                    <input type="text" class="form-control" id="txtItemCode">
+                    <p><small id="ItemCodeError" class="text-danger pl-1"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtItemName" class="form-label">Item Name</label>
+                    <input type="text" class="form-control" id="txtItemName">
+                    <p><small id="ItemNameError" class="text-danger pl-1"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtQty" class="form-label">Qty On Hand</label>
+                    <input type="text" class="form-control" id="txtQty">
+                    <p><small id="ItemQTYError" class="text-danger pl-1"></small></p>
+                </div>
+                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
+                    <label for="txtPrice" class="form-label">Unit Price</label>
+                    <input type="text" class="form-control" id="txtPrice">
+                    <p><small id="ItemPriceError" class="text-danger pl-1"></small></p>
+                </div>
+                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-save">Save</button>
+                <button type="button" class="btn btn-success col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-update">Update</button>
+                <button type="button" class="btn btn-danger col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-delete">Delete</button>
+<!--                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-feild-Clear">Clear</button>-->
+
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-6 col-xxl-6 Item-search">
+            <h1>Item Search</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3 input-group-sm col-9 mx-5">
+                        <label for="txtItemSearch" class="form-label">Input Item Name</label>
+                        <input type="text" class="form-control" id="txtItemSearch">
+                    </div>
+                    <button type="button" class="btn btn-success col-6 col-xl-2 col-xxl-2 mx-5" id="btn-item-search">Search</button>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col=12">
+            <br><br>
+            <table class="table table-hover" id="item-Tabele">
+                <thead>
+                <tr>
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>QTY</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody id="itemTable">
+
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
@@ -163,138 +297,6 @@
 </section>
 
 
-<section class="container-fluid customer-area">
-    <br><br>
-    <div class="row">
-        <div class="col-12 col-xl-6 col-xxl-6 customer-form">
-            <h1>Customer Manage</h1>
-            <div class="row">
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtCusID" class="form-label">Customer ID</label>
-                    <input type="text" class="form-control" id="txtCusID">
-                    <p><small class="text-danger pl-1" id="lblcusid"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtCusName" class="form-label">Customer Name</label>
-                    <input type="text" class="form-control" id="txtCusName">
-                    <p><small class="text-danger pl-1" id="lblcusname"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtCusAddress" class="form-label">Customer Address</label>
-                    <input type="text" class="form-control" id="txtCusAddress">
-                    <p><small class="text-danger pl-1" id="lblcusaddress"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtCusSalary" class="form-label">Customer Salary</label>
-                    <input type="text" class="form-control" id="txtCusSalary">
-                    <p><small class="text-danger pl-1" id="lblcussalary"></small></p>
-                </div>
-                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-save-customer">Save</button>
-                <button type="button" class="btn btn-success col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-update-customer">Update</button>
-                <button type="button" class="btn btn-danger col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-delete-customer">Delete</button>
-                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-customer-clear-feild">clear</button>
-
-            </div>
-        </div>
-
-        <div class="col-12 col-xl-6 col-xxl-6 customer-search">
-            <h1>Customer Search</h1>
-            <div class="row">
-                <div class="col">
-                    <div class="mb-3 input-group-sm col-9 mx-5">
-                        <label for="txtCustomerSearch" class="form-label">Input Customer ID Here</label>
-                        <input type="text" class="form-control" id="txtCustomerSearch">
-                    </div>
-                    <button type="button" class="btn btn-success col-6 col-xl-2 col-xxl-2 mx-5" id="btn-customer-search">Search</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col=12">
-            <br><br>
-            <table class="table table-hover" id="customer-table">
-                <thead>
-                <tr>
-                    <th>Customer NIC</th>
-                    <th>Customer Name</th>
-                    <th>Customer Address</th>
-                    <th>Salary</th>
-                </tr>
-                </thead>
-                <tbody id="customerTable">
-
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
-
-<section class="container-fluid item-area">
-    <div class="row">
-        <div class="col-12 col-xl-6 col-xxl-6 Item-form">
-            <h1>Item Manage</h1>
-            <div class="row">
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtItemCode" class="form-label">Item Code</label>
-                    <input type="text" class="form-control" id="txtItemCode">
-                    <p><small id="ItemCodeError" class="text-danger pl-1"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtItemName" class="form-label">Item Name</label>
-                    <input type="text" class="form-control" id="txtItemName">
-                    <p><small id="ItemNameError" class="text-danger pl-1"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtQty" class="form-label">Qty On Hand</label>
-                    <input type="text" class="form-control" id="txtQty">
-                    <p><small id="ItemQTYError" class="text-danger pl-1"></small></p>
-                </div>
-                <div class="mb-3 input-group-sm col-12 col-xl-6 col-xxl-6">
-                    <label for="txtPrice" class="form-label">Unit Price</label>
-                    <input type="text" class="form-control" id="txtPrice">
-                    <p><small id="ItemPriceError" class="text-danger pl-1"></small></p>
-                </div>
-                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-save">Save</button>
-                <button type="button" class="btn btn-success col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-update">Update</button>
-                <button type="button" class="btn btn-danger col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-delete">Delete</button>
-                <button type="button" class="btn btn-primary col-8 col-xl-2 col-xxl-2 mx-3 mb-2" id="btn-item-feild-Clear">Clear</button>
-
-            </div>
-        </div>
-
-        <div class="col-12 col-xl-6 col-xxl-6 Item-search">
-            <h1>Item Search</h1>
-            <div class="row">
-                <div class="col">
-                    <div class="mb-3 input-group-sm col-9 mx-5">
-                        <label for="txtItemSearch" class="form-label">Input Item Name</label>
-                        <input type="text" class="form-control" id="txtItemSearch">
-                    </div>
-                    <button type="button" class="btn btn-success col-6 col-xl-2 col-xxl-2 mx-5" id="btn-item-search">Search</button>
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col=12">
-            <br><br>
-            <table class="table table-hover" id="item-Tabele">
-                <thead>
-                <tr>
-                    <th>Item Code</th>
-                    <th>Item Name</th>
-                    <th>QTY</th>
-                    <th>Price</th>
-                </tr>
-                </thead>
-                <tbody id="itemTable">
-
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
 
 <section class="container-fluid order-area">
     <div class="row">
