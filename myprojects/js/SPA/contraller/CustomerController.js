@@ -10,6 +10,50 @@ function saveCustomer() {
     customerDb.push(customer);
 
 }
+function updateCustomer() {
+    let customerID = $('#txtCusID').val();
+    let customerName = $("#txtCusName").val();
+    let customerAddress = $("#txtCusAddress").val();
+    let customerSalary = $("#txtCusSalary").val();
+    for (var i=0;i<customerDb.length;i++){
+        if(customerDb[i].getCustomerID()==$("#txtCusID").val()){
+            var customer=customerDb[i];
+            customer.setCustomerName(customerName);
+            customer.setCustomerAddress(customerAddress);
+            customer.setCustomeSalary(customerSalary)
+        }
+    }
+}
+
+function deleteCustomer(id){
+    let customer;
+    if(id!=null){
+        for (var i=0;i<customerDb.length;i++){
+            if(id==customerDb[i].getCustomerID()){
+                customer=customerDb[i];
+            }
+        }
+        let indexNumber=customerDb.indexOf(customer);
+        customerDb.splice(indexNumber,1);
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function searchCustomer() {
+    console.log("Searc")
+    for (var i=0;i<customerDb.length;i++){
+        if($('#txtCustomerSearch').val()==customerDb[i].getCustomerID()){
+            $("#txtCusID").val(customerDb[i].getCustomerID())
+            $("#txtCusName").val(customerDb[i].getCustomerName());
+            $("#txtCusAddress").val(customerDb[i].getCustomerAddress());
+            $("#txtCusSalary").val(customerDb[i].getCustomerSalary());
+        }
+    }
+
+}
+
 function loadAllCustomers() {
 
     $("#customerTable").empty();
@@ -43,7 +87,6 @@ $("#btn-save-customer").click(function () {
 
 
 });
-
 
 
 $("#btn-customer-search").click(function () {
@@ -82,35 +125,6 @@ $("#btn-customer-clear-feild").click(function () {
 });
 
 
-
-function searchCustomer() {
-    console.log("Searc")
-    for (var i=0;i<customerDb.length;i++){
-        if($('#txtCustomerSearch').val()==customerDb[i].getCustomerID()){
-            $("#txtCusID").val(customerDb[i].getCustomerID())
-            $("#txtCusName").val(customerDb[i].getCustomerName());
-            $("#txtCusAddress").val(customerDb[i].getCustomerAddress());
-            $("#txtCusSalary").val(customerDb[i].getCustomerSalary());
-        }
-    }
-
-}
-function deleteCustomer(id){
-    let customer;
-    if(id!=null){
-        for (var i=0;i<customerDb.length;i++){
-            if(id==customerDb[i].getCustomerID()){
-                customer=customerDb[i];
-            }
-        }
-        let indexNumber=customerDb.indexOf(customer);
-        customerDb.splice(indexNumber,1);
-        return true;
-    }else{
-        return false;
-    }
-
-}
 function generateCustomerID() {
     try {
         let lastCustId = customerDb[customerDb.length - 1].getCustomerID();
@@ -130,20 +144,6 @@ function generateCustomerID() {
 function OpenLoadFuntion(){
     generateCustomerID();
 
-}
-function updateCustomer() {
-    let customerID = $('#txtCusID').val();
-    let customerName = $("#txtCusName").val();
-    let customerAddress = $("#txtCusAddress").val();
-    let customerSalary = $("#txtCusSalary").val();
-    for (var i=0;i<customerDb.length;i++){
-        if(customerDb[i].getCustomerID()==$("#txtCusID").val()){
-           var customer=customerDb[i];
-           customer.setCustomerName(customerName);
-           customer.setCustomerAddress(customerAddress);
-           customer.setCustomeSalary(customerSalary)
-        }
-    }
 }
 
 

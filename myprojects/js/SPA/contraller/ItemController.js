@@ -128,26 +128,6 @@ function loadingMehtord() {
    generateItemID();
 
 }
-// function validation(regExPara, nextReg, thisField, nextField,errorMsg,errorMsgNext) {
-//     var regEx = regExPara;
-//     if (regEx.test($(thisField).val())) {
-//         $(thisField).css("border", "2px solid green");
-//         $(errorMsg).text("");
-//         if (nextField != 0) {
-//             checkNext(nextReg, nextField,errorMsg);
-//             $(errorMsgNext).text("Invalid Input");
-//         }
-//
-//     } else {
-//         $(thisField).css("border", "2px solid red");
-//         $(errorMsg).text("Invalid Input");
-//     }
-// }
-
-
-
-
-
 
 // ---------------Validation Start-----------
 //validation started
