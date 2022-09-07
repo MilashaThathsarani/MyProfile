@@ -3,7 +3,7 @@
 
 
 <head>
-    <title>My Profile</title>
+    <title>My Profile|Milasha Thathsarani</title>
     <link rel="icon" href="assets/images/IMG-20180908-WA0003%20(1).jpg">
     <meta name="keywords" content="My Profile,Milasha">
     <meta name="description" content="This is for Testing">
@@ -24,6 +24,10 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'poppins',sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth; /*smoothly navigate page to page */
     }
 
     .container {
@@ -49,6 +53,7 @@
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,49,49,1) 0%, rgba(57,54,64,1) 25%, rgba(59,56,70,1) 49%,
         rgba(61,58,76,1) 62%, rgba(87,80,139,1) 99%, rgba(203,203,203,1) 100%, rgba(203,203,203,1) 100%);
     }
+
     #home{
         position: absolute;
         left: 470px;
@@ -59,6 +64,7 @@
         font-family:Calibri;
         transition: 0.5s;
     }
+
     #home:hover {
         transition-property: all;
         transition: 0.5s;
@@ -187,6 +193,10 @@
         color: #181818;
         font-size: 27px;
     }
+    body {
+        overflow-x: hidden; /* hidden overflow across the x */
+    }
+
     body>section:nth-child(1)>section>h1:nth-child(1){
         position: absolute;
         left: 90px;
